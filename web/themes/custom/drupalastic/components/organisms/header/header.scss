@@ -1,0 +1,39 @@
+@import '../../config.all';
+.header {
+  background-color: var(--c-primary);
+  position: relative;
+  height: 100px;
+}
+.header-btn {
+  bottom: 3em;
+  left: 12em;
+  position: relative;
+  float: right;
+  @include breakpoint($mobile) {
+    display: none;
+  }
+  @include breakpoint($tablet) {
+    display: none;
+  }
+}
+.hamburger {
+  display: none;
+  position: relative;
+  outline: none;
+  z-index: 999;
+  @include breakpoint($mobile) {
+    @include hamburger;
+  }
+  @include breakpoint($tablet) {
+    @include hamburger;
+    bottom: 3em;
+  }
+}
+.hamburger-bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffff;
+}

@@ -1,0 +1,18 @@
+@import '../../config.all';
+.brand {
+  position: relative;
+  top: 1em;
+  @include breakpoint($desktop) {
+    max-width: 1140px;
+    margin: 0 auto;
+    top: 1em;
+    left: 0.5em;
+  }
+  @include breakpoint($mobile) {
+    padding-left: 1em;
+  }
+  @include breakpoint($tablet) {
+    bottom: 1.75em;
+    padding-left: 3em;
+  }
+}
