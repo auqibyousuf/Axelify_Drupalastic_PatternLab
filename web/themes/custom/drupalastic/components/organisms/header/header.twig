@@ -1,0 +1,29 @@
+<div class="header-wrapper">
+  <div class="header">
+    <div class="brand">
+      {% if drupal_logo %}
+        {{ drupal_logo }}
+      {% else %}
+        {% include "@atoms/logo/logo.twig" with {
+        "imgSrc": imgSrc
+      } %}
+      {% endif %}
+    </div>
+    <div class="navbar-wrapper">
+      {% if drupal_menu %}
+          {{ drupal_menu }}
+      {% else %}
+        {% include "@molecules/menu/menu.twig" with {
+        "wrapperClass": wrapperClass,
+        "itemClasses": itemClasses,
+        "menu": menus
+      } %}
+      {% endif %}
+      <div class="hamburger">
+        <span class="hamburger-bar hamburger--active"></span>
+        <span class="hamburger-bar hamburger--active"></span>
+        <span class="hamburger-bar hamburger--active"></span>
+      </div>
+    </div>
+  </div>
+</div>

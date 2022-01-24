@@ -2,8 +2,10 @@ global:
   css:
     theme:
       dist/components/global.css: {}
+      dist/components/atoms/text/heading/headings.css: {}
   js:
     dist/components/main.js:
+    dist/components/navbar.js:
       attributes:
         type: module
 
@@ -11,3 +13,20 @@ global:
 #   css:
 #     theme:
 #       dist/components/tailwind.css: {}
+card:
+  css:
+    theme:
+      dist/components/molecules/card/card.css: {}
+
+card-list:
+  css:
+    theme:
+      dist/components/organisms/card-list/card-list.css: {}
+
+nav-menu:
+  css:
+    theme:
+      dist/components/atoms/logo/logo.css: {}
+      dist/components/molecules/menu/menu.css: {}
+      dist/components/organisms/header/header.css: {}
+      dist/components/atoms/button/button.css: {}

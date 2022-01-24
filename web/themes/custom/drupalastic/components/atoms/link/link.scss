@@ -1,4 +1,5 @@
-a {
-  text-decoration: none;
-  color: green;
+@import '../../config.all';
+
+.link-clear {
+  @include link-clear;
 }

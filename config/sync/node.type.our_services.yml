@@ -1,0 +1,18 @@
+uuid: eb5469f5-cfd6-42ac-b22a-5f0c3e52a5b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Our services'
+type: our_services
+description: 'Uses for Creating Our Services Section'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,22 @@
+uuid: f85bbd27-3ea3-4462-8458-de298f677bce
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalastic
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: drupalastic_breadcrumbs
+theme: drupalastic
+region: header
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
