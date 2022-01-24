@@ -1,15 +1,5 @@
-{# {% if drupal_view_rows %}
-  {% for row in drupal_view_rows %}
-    {% set row_classes = [default_row_class ? 'views-row', 'blogs-container',] %}
-    <div{{ row.attributes.addClass(row_classes) }}>
-      {{ - row.content - }}
-    </div>
-  {% endfor %}
-{% endif %} #}
-
-
-{% if BlogData.blogs %}
-  {% for blog in BlogData.blogs %}
+{% if blogs %}
+  {% for blog in blogs %}
     <div class="blogs-container">
       {% include "@molecules/blog/blog.twig" with {
           "blogimgSrc": blog.blogimgSrc,

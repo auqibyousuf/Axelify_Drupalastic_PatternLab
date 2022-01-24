@@ -11,19 +11,21 @@
     display: flex;
   }
   a[href*='facebook'] {
-    background-image: url(/images/facebook.png);
+    background-image: url(/themes/custom/drupalastic/images/facebook.png);
   }
   a[href*='instagram'] {
-    background-image: url(/images/instagram.png);
+    background-image: url(/themes/custom/drupalastic/images/instagram.png);
   }
   a[href*='twitter'] {
-    background-image: url(/images/twitter.png);
+    background-image: url(/themes/custom/drupalastic/images/twitter.png);
+  }
+  @include breakpoint($mobile) {
+    flex-direction: column;
   }
 }
 
 .footer-social__list {
   display: flex;
-  padding-left: 10px;
   padding: 0;
   margin: 0;
 }

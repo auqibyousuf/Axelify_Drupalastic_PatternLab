@@ -1,43 +1,50 @@
-<div class="footer-primary">
-  <div class="footer__logo-container">
-  {% if footer_logo %}
-    {{ footer_logo }}
+<div class="footer">
+  <div class="footer-primary">
+    <div class="footer__logo-container">
+      {% if footer_logo %}
+        {{ footer_logo }}
+      {% else %}
+        {% include "@molecules/footer-logo/footer-logo.twig" with {
+        footerLogo: FooterLogo
+      } %}
+      {% endif %}
+      {% if footer_social %}
+        {{ footer_social }}
+      {% else %}
+        {% include "@molecules/footer-social-menu/footer-social-menu.twig" with {
+          SocialData: socialMenus
+      } %}
+      {% endif %}
+    </div>
+    <div class="footer__menu-container">
+      {% if footer_menu_causae %}
+        {{ footer_menu_causae }}
+      {% else %}
+        {% include "@molecules/footer-menu/footer-menu.twig" with {
+          footerMenu: footerMenuCausae
+      } %}
+      {% endif %}
+      {% if footer_menu_aperiri %}
+        {{ footer_menu_aperiri }}
+      {% else %}
+        {% include "@molecules/footer-menu/footer-menu.twig" with {
+          footerMenu: footerMenuAperiri
+      } %}
+      {% endif %}
+    </div>
+    <div class="footer__blogs-container">
+      {% if footer_blogs %}
+        {{ footer_blogs }}
+      {% else %}
+        {% include "@organisms/blogs-post/blogs-post.twig" %}
+      {% endif %}
+    </div>
+  </div>
+  <div class="footer-secondary">
+  {% if footer_secondary %}
+    {{ footer_secondary }}
   {% else %}
-    {% include "@molecules/footer-logo/footer-logo.twig" with {
-      footerLogo: FooterLogo
-  } %}
-  {% endif %}
-    {% if footer_social %}
-      {{ footer_social }}
-    {% else %}
-      {% include "@molecules/footer-social-menu/footer-social-menu.twig" with {
-        SocialData: socialMenus
-    } %}
+    {% include "@molecules/footer-secondary/footer-secondary.twig" %}
   {% endif %}
   </div>
-  <div class="footer__menu-container">
-    {% if footer_menu_causae %}
-      {{ footer_menu_causae }}
-    {% else %}
-      {% include "@molecules/footer-menu/footer-menu.twig" with {
-        footerMenu: footerMenuCausae
-    } %}
-    {% endif %}
-    {% if footer_menu_aperiri %}
-      {{ footer_menu_aperiri }}
-    {% else %}
-      {% include "@molecules/footer-menu/footer-menu.twig" with {
-        footerMenu: footerMenuAperiri
-    } %}
-    {% endif %}
-  </div>
-  <div class="footer__blogs-container">
-    {% if footer_blogs %}
-      {{ footer_blogs }}
-    {% else %}
-      {% include "@organisms/blogs-post/blogs-post.twig" %}
-    {% endif %}
-  </div>
-</div>
-<div class="footer-secondary">
 </div>

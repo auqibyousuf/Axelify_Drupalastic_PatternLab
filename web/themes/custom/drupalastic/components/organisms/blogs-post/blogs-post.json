@@ -1,16 +1,14 @@
 {
-  "BlogData": {
-    "blogs": [
-      {
-        "blogimgSrc": "/images/recent1.png",
-        "blogDiscription": "Ius delectus instructior eu, eu eum mentitum percipit forensibus",
-        "blogDate": "July 15, 2019"
-      },
-      {
-        "blogimgSrc": "/images/recent2.png",
-        "blogDiscription": "Altera integre suavitate per an, alienum phaedrum te sea",
-        "blogDate": "July 10, 2019"
-      }
-    ]
-  }
+  "blogs": [
+    {
+      "blogimgSrc": "/images/recent1.png",
+      "blogDiscription": "Ius delectus instructior eu, eu eum mentitum percipit forensibus",
+      "blogDate": "July 15, 2019"
+    },
+    {
+      "blogimgSrc": "/images/recent2.png",
+      "blogDiscription": "Altera integre suavitate per an, alienum phaedrum te sea",
+      "blogDate": "July 10, 2019"
+    }
+  ]
 }

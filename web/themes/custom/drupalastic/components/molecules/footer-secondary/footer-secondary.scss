@@ -1,3 +1,20 @@
-.footer-secondary {
+@import '../../config.all';
+.footer-copyright {
   display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  justify-content: space-between;
+  color: var(--c-black-50);
+  height: 80px;
+  align-items: center;
+  @include breakpoint($mobile) {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+  p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }

@@ -1,13 +1,14 @@
 @import '../../config.all';
 .footer__title {
-  color: #000000;
-  font-weight: 700;
+  color: var(--c-black);
+  font-weight: bold;
   padding: 0;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .footer__menu-list-link {
-  color: rgba(0, 0, 0, 0.5);
+  @include link-clear;
+  color: var(--c-black-50);
 }
 .footer__menu-list {
   @include list-clear;

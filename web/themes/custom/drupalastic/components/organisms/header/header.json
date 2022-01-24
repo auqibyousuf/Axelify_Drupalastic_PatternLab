@@ -1,6 +1,6 @@
 {
-  "imgSrc": "https://via.placeholder.com/102x48.png",
-  "class": "brand, fbrand",
+  "imgSrc": "/images/logo.png",
+  "class": "brand",
   "wrapperClass": "nav-menu",
   "itemClasses": ["nav-menu__link"],
   "menus": [
@@ -19,6 +19,10 @@
     {
       "linkUrl": "https://www.google.com",
       "linkText": "Contact"
+    },
+    {
+      "linkUrl": "https://www.google.com",
+      "linkText": "Signup"
     }
   ]
 }

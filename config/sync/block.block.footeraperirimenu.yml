@@ -11,7 +11,7 @@ dependencies:
 id: footeraperirimenu
 theme: drupalastic
 region: footer
-weight: -3
+weight: -5
 provider: null
 plugin: 'system_menu_block:footer-aperiri-menu'
 settings:

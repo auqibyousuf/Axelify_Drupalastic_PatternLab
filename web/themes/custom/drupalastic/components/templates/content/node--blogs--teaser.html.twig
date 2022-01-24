@@ -70,9 +70,10 @@
  *   in different view modes.
  */
 #}
-{% include "@organisms/blogs-post/blogs-post.twig" with {
+{% include "@molecules/blog/blog.twig" with {
   "blogimgSrc": content.field_blog_image.0['#markup'],
   "blogDiscription": content.body.0,
   "blogDate": content.field_blog_date.0
 } %}
-{# {{ kpr() }} #}
+
+

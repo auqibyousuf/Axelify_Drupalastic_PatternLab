@@ -1,19 +1,16 @@
-<div class="footer__menu-block">
-
-  <nav class="{{ footerMenu.wrapperClass }}">
-    <p class="footer__title">
-      {{ footerMenu.menuTitle }}
-    </p>
-    <ul class="{{ footerMenu.listClass }}">
-      {% for menu in footerMenu.menus %}
-        <li class="{{ footerMenu.itemClass }}">
-          {% include "@atoms/link/link.twig" with {
-              "linkText": menu.linkText,
-              "linkurl": menu.linkUrl,
-              "extra_classes": footerMenu.itemClasses,
-            } %}
-        </li>
-      {% endfor %}
+<nav class="{{ footerMenu.wrapperClass }}">
+  <p class="footer__title">
+    {{ footerMenu.menuTitle }}
+  </p>
+  <ul class="{{ footerMenu.listClass }}">
+    {% for menu in footerMenu.menus %}
+      <li class="{{ footerMenu.itemClass }}">
+        {% include "@atoms/link/link.twig" with {
+            "linkText": menu.linkText,
+            "linkurl": menu.linkUrl,
+            "extra_classes": footerMenu.itemClasses,
+        } %}
+      </li>
+    {% endfor %}
     </ul>
-  </nav>
-</div>
+</nav>

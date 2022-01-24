@@ -37,4 +37,6 @@ footer:
       dist/components/molecules/footer-logo/footer-logo.css: {}
       dist/components/molecules/footer-menu/footer-menu.css: {}
       dist/components/molecules/blog/blog.css: {}
+      dist/components/molecules/footer-secondary/footer-secondary.css: {}
       dist/components/organisms/footer/footer.css: {}
+

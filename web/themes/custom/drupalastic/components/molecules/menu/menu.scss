@@ -8,7 +8,7 @@
   font-size: 14px;
   font-family: var(--f-primary);
   position: relative;
-  bottom: 1.3em;
+  bottom: 0.5em;
   @include breakpoint($mobile) {
     z-index: 10;
     position: fixed;

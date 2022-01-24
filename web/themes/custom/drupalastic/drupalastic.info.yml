@@ -10,6 +10,7 @@ regions:
   content: Content
   sidebar: Sidebar
   footer: Footer
+  footer secondary: Footer Secondary
 
 libraries:
   - core/normalize
