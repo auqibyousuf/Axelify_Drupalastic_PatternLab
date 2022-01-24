@@ -17,6 +17,7 @@ libraries:
   - drupalastic/card
   - drupalastic/card-list
   - drupalastic/nav-menu
+  - drupalastic/footer
 
 components:
   namespaces:

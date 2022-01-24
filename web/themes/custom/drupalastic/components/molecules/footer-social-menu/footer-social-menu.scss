@@ -1,0 +1,35 @@
+@import '../../config.all';
+
+.footer-social {
+  a {
+    color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    display: flex;
+  }
+  a[href*='facebook'] {
+    background-image: url(/images/facebook.png);
+  }
+  a[href*='instagram'] {
+    background-image: url(/images/instagram.png);
+  }
+  a[href*='twitter'] {
+    background-image: url(/images/twitter.png);
+  }
+}
+
+.footer-social__list {
+  display: flex;
+  padding-left: 10px;
+  padding: 0;
+  margin: 0;
+}
+.footer-social__link {
+  margin-left: 10px;
+}
+.footer-social__list-item {
+  @include list-clear-all;
+}

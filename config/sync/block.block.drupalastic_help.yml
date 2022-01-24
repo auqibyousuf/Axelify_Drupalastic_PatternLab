@@ -1,6 +1,6 @@
 uuid: 64dc2132-c91a-4e2c-a4d1-70a37828d401
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: drupalastic_help
 theme: drupalastic
 region: content
-weight: -30
+weight: -3
 provider: null
 plugin: help_block
 settings:

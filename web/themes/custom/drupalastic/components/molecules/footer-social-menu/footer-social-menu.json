@@ -1,0 +1,22 @@
+{
+  "SocialData": {
+    "wrapperClassSocial": "footer-social",
+    "wrapperClassListSocial": "footer-social__list",
+    "wrapperClassItemSocial": "footer-social__list-item",
+    "itemClassesSocial": ["footer-social__link"],
+    "menus": [
+      {
+        "linkUrl": "https://www.facebook.com",
+        "linkText": "Facebook"
+      },
+      {
+        "linkUrl": "https://www.instagram.com",
+        "linkText": "Instagram"
+      },
+      {
+        "linkUrl": "https://www.twitter.com",
+        "linkText": "Twitter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../config.all';
+
+.footer-primary {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 80px;
+  @include breakpoint($tablet) {
+    flex-direction: column;
+  }
+  @include breakpoint($mobile) {
+    flex-direction: column;
+  }
+}
+.footer-blog {
+  padding-bottom: 40px;
+}
+.footer__menu-container {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}

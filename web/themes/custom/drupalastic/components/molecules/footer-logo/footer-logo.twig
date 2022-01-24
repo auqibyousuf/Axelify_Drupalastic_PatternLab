@@ -1,0 +1,12 @@
+<div class="footer-left">
+  <div class="footer__logo">
+    {% include "@atoms/logo/logo.twig" with {
+      "imgSrc": footerLogo.imgSrc,
+    } %}
+  </div>
+  <div class="footer__short-info">
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": footerLogo.text,
+    } %}
+  </div>
+</div>

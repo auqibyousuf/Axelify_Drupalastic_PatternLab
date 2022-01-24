@@ -82,8 +82,15 @@
 
   {% if page.footer %}
     <footer role="contentinfo">
-      {{ page.footer }}
+    {# {% include "@organisms/footer/footer.twig" with {
+      "footer_logo": page.footer.footerlogoandinfo,
+      "footer_social": page.footer.footersociallinks,
+      "footer_menu_causae": page.footer.footercausaemenu,
+      "footer_menu_aperiri": page.footer.footeraperirimenu,
+      "footer_blogs": page.footer.views_block__latest_blogs_block_1
+    } %}
+    {{ page.footer|without("footerlogoandinfo", "footerlogoandinfo", "footersociallinks", "footercausaemenu", "footeraperirimenu", "views_block__latest_blogs_block_1") }} #}
+    {{ page.footer }}
     </footer>
   {% endif %}
-
 </div>{# /.layout-container #}

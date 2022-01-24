@@ -1,6 +1,6 @@
 {
-  "wrapperClass":"nav-menu",
-  "itemClasses":["nav-menu__link"],
+  "wrapperClass": "nav-menu",
+  "itemClasses": ["nav-menu__link"],
   "menus": [
     {
       "linkUrl": "https://www.google.com",
@@ -11,12 +11,12 @@
       "linkText": "Portfolio"
     },
     {
-    "linkUrl":"https://www.google.com",
-    "linkText":"Blog"
+      "linkUrl": "https://www.google.com",
+      "linkText": "Blog"
     },
     {
-    "linkUrl":"https://www.google.com",
-    "linkText":"Contact"
+      "linkUrl": "https://www.google.com",
+      "linkText": "Contact"
     }
   ]
 }

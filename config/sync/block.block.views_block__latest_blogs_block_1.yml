@@ -1,0 +1,24 @@
+uuid: b1355012-76d4-4d3d-90f5-3dbe03532b35
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_blogs
+  module:
+    - views
+  theme:
+    - drupalastic
+id: views_block__latest_blogs_block_1
+theme: drupalastic
+region: footer
+weight: 0
+provider: null
+plugin: 'views_block:latest_blogs-block_1'
+settings:
+  id: 'views_block:latest_blogs-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }
