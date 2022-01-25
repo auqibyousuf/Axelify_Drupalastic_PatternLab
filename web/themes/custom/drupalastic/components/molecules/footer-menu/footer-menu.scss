@@ -1,0 +1,19 @@
+@import '../../config.all';
+.footer__title {
+  color: var(--c-black);
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer__menu-list-link {
+  @include link-clear;
+  color: var(--c-black-50);
+}
+.footer__menu-list {
+  @include list-clear;
+  padding: 0;
+}
+.footer__menu-list-item {
+  padding-bottom: 8px;
+}

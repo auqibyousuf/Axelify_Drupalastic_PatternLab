@@ -4,18 +4,6 @@
   position: relative;
   height: 100px;
 }
-.header-btn {
-  bottom: 3em;
-  left: 12em;
-  position: relative;
-  float: right;
-  @include breakpoint($mobile) {
-    display: none;
-  }
-  @include breakpoint($tablet) {
-    display: none;
-  }
-}
 .hamburger {
   display: none;
   position: relative;

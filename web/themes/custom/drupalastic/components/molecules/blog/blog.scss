@@ -1,0 +1,46 @@
+@import '../../config.all';
+
+.footer-blogs__discription {
+  color: rgba(0, 0, 0, 0.5);
+  width: 270px;
+  font-family: var(--f-primary);
+  line-height: 24px;
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  @include breakpoint($mobile) {
+    width: 225px;
+  }
+}
+.footer-blogs {
+  display: flex;
+  padding-bottom: 20px;
+  @include breakpoint($mobile) {
+    padding-left: 15px;
+  }
+  @include breakpoint($tablet) {
+    padding-left: 15px;
+  }
+}
+.footer-blogs__image {
+  img {
+    border-radius: 5px;
+  }
+}
+.footer-blogs__date {
+  font-family: var(--f-primary);
+  font-weight: bold;
+  color: var(--c-black);
+  p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  @include breakpoint($mobile) {
+    display: block;
+  }
+}
+
+.footer-blogs-body {
+  padding-left: 30px;
+}

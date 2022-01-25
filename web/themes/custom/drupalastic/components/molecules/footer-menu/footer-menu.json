@@ -1,0 +1,27 @@
+{
+  "footerMenu": {
+    "wrapperClass": "footer__menu",
+    "listClass": "footer__menu-list",
+    "itemClass": "footer__menu-list-item",
+    "menuTitle": "Causae",
+    "itemClasses": ["footer__menu-list-link"],
+    "menus": [
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Doming"
+      },
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Dicunt"
+      },
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Feugait"
+      },
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Scripta"
+      }
+    ]
+  }
+}

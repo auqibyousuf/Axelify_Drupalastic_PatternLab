@@ -1,0 +1,11 @@
+{% if blogs %}
+  {% for blog in blogs %}
+    <div class="blogs-container">
+      {% include "@molecules/blog/blog.twig" with {
+          "blogimgSrc": blog.blogimgSrc,
+          "blogDiscription": blog.blogDiscription,
+          "blogDate": blog.blogDate
+        } %}
+    </div>
+  {% endfor %}
+{% endif %}

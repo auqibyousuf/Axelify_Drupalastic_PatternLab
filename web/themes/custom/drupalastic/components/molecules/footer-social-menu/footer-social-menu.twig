@@ -1,0 +1,12 @@
+<nav class="{{ SocialData.wrapperClassSocial }}">
+  <ul class="{{ SocialData.wrapperClassListSocial }}">
+    {% for menu in SocialData.menus %}
+      <li class="{{ SocialData.wrapperClassItemSocial }}">
+        {% include "@atoms/link/link.twig" with {
+            "linkUrl": menu.linkUrl,
+            "extra_classes": SocialData.itemClassesSocial,
+          } %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

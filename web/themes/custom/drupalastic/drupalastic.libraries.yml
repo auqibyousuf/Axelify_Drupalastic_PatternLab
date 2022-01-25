@@ -30,3 +30,14 @@ nav-menu:
       dist/components/molecules/menu/menu.css: {}
       dist/components/organisms/header/header.css: {}
       dist/components/atoms/button/button.css: {}
+
+footer:
+  css:
+    theme:
+      dist/components/molecules/footer-social-menu/footer-social-menu.css: {}
+      dist/components/molecules/footer-logo/footer-logo.css: {}
+      dist/components/molecules/footer-menu/footer-menu.css: {}
+      dist/components/molecules/blog/blog.css: {}
+      dist/components/molecules/footer-secondary/footer-secondary.css: {}
+      dist/components/organisms/footer/footer.css: {}
+

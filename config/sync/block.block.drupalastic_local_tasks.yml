@@ -1,6 +1,6 @@
 uuid: 0117c1e8-8a70-4cfe-ab6d-52fc547393f8
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - drupalastic
@@ -9,7 +9,7 @@ _core:
 id: drupalastic_local_tasks
 theme: drupalastic
 region: content
-weight: -40
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

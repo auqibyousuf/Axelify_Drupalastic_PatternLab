@@ -11,12 +11,16 @@
       "linkText": "Portfolio"
     },
     {
-    "linkUrl":"https://www.google.com",
-    "linkText":"Blog"
+      "linkUrl":"https://www.google.com",
+      "linkText":"Blog"
     },
     {
-    "linkUrl":"https://www.google.com",
-    "linkText":"Contact"
+      "linkUrl":"https://www.google.com",
+      "linkText":"Contact"
+    },
+    {
+      "linkUrl": "https://www.google.com",
+      "linkText": "Signup"
     }
   ]
 }

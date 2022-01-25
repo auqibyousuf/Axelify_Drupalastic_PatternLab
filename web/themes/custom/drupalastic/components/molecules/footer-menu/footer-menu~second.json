@@ -1,0 +1,27 @@
+{
+  "footerMenu": {
+    "wrapperClass": "footer__menu",
+    "listClass": "footer__menu-list",
+    "itemClass": "footer__menu-list-item",
+    "menuTitle": "Aperiri",
+    "itemClasses": ["footer__menu-list-link"],
+    "menus": [
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Postulant"
+      },
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Affert"
+      },
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Audire"
+      },
+      {
+        "linkUrl": "http:www.google.com",
+        "linkText": "Quaestio"
+      }
+    ]
+  }
+}

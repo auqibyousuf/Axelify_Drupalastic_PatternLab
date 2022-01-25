@@ -1,0 +1,20 @@
+<div class="footer-blogs">
+  <div class="footer-blogs__image">
+    {% include "@atoms/image/image.twig" with {
+      "blogimgSrc": blogimgSrc
+    } %}
+  </div>
+  <div class="footer-blogs-body">
+    <div class="footer-blogs__discription">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": blogDiscription
+      } %}
+    </div>
+    <div class="footer-blogs__date">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": blogDate
+      } %}
+    </div>
+  </div>
+</div>
+

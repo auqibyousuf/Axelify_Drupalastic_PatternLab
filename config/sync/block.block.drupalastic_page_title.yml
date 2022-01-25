@@ -1,6 +1,6 @@
 uuid: bf80a13e-82c7-46ae-9336-24be52fe9de8
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - drupalastic
@@ -9,7 +9,7 @@ _core:
 id: drupalastic_page_title
 theme: drupalastic
 region: content
-weight: -50
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

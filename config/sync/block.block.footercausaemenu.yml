@@ -1,0 +1,25 @@
+uuid: 04915518-1aef-4ccc-9385-b412cd538785
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu
+  module:
+    - system
+  theme:
+    - drupalastic
+id: footercausaemenu
+theme: drupalastic
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer-menu'
+settings:
+  id: 'system_menu_block:footer-menu'
+  label: Causae
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

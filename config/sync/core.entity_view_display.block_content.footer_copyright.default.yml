@@ -1,0 +1,30 @@
+uuid: 9634ca86-17e8-4052-8252-2afd92c15879
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_copyright
+    - field.field.block_content.footer_copyright.field_copyright
+    - field.field.block_content.footer_copyright.field_created
+id: block_content.footer_copyright.default
+targetEntityType: block_content
+bundle: footer_copyright
+mode: default
+content:
+  field_copyright:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_created:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

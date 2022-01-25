@@ -1,0 +1,49 @@
+uuid: 5c79976d-c0b3-470d-9c7d-0dd23056f4d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_social_links
+    - field.field.block_content.footer_social_links.field_facebook
+    - field.field.block_content.footer_social_links.field_instagram
+    - field.field.block_content.footer_social_links.field_twitter
+  module:
+    - link
+id: block_content.footer_social_links.default
+targetEntityType: block_content
+bundle: footer_social_links
+mode: default
+content:
+  field_facebook:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_instagram:
+    weight: 28
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_twitter:
+    weight: 29
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

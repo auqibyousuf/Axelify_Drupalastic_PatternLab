@@ -1,0 +1,25 @@
+uuid: 427c3b04-b597-405f-b3c5-aa9c4a21fe91
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_copyright:dc06f51a-9055-40ec-88db-cfbb4a0a0ded'
+  module:
+    - block_content
+  theme:
+    - drupalastic
+id: footersecondary
+theme: drupalastic
+region: footer
+weight: -3
+provider: null
+plugin: 'block_content:dc06f51a-9055-40ec-88db-cfbb4a0a0ded'
+settings:
+  id: 'block_content:dc06f51a-9055-40ec-88db-cfbb4a0a0ded'
+  label: 'Footer Secondary'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
