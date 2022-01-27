@@ -1,0 +1,83 @@
+@import '../../config.all';
+.subscribe-section {
+  height: 352px;
+  background: var(--c-secondary-light);
+  @include breakpoint($mobile) {
+    height: 480px;
+  }
+}
+.subscribe-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 350px;
+  transition: 0.4s;
+  @include breakpoint($mobile) {
+    flex-direction: column;
+    height: 480px;
+    padding: 0 15px;
+    align-items: flex-start;
+    transition: 0.4s;
+    justify-content: space-around;
+  }
+  @include breakpoint($tablet) {
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.4s;
+  }
+}
+.subscribe-section__text {
+  padding-right: 85px;
+  @include breakpoint($mobile) {
+    width: 200px;
+    padding: 0;
+  }
+}
+.subscribe-section__heading {
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+  @include breakpoint($mobile) {
+    padding-top: 30px;
+  }
+}
+.subscribe-section__subheading {
+  font-family: var(--f-secondary);
+  font-size: 56px;
+  line-height: 64px;
+  width: 510px;
+  @include breakpoint($mobile) {
+    font-size: 40px;
+    height: 150px;
+    width: 210px;
+  }
+}
+
+.subscribe-section-form {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  @include breakpoint($mobile) {
+    flex-direction: column;
+    height: 120px;
+    width: 300px;
+  }
+}
+.subscribe-section__button {
+  width: 178px;
+  height: 48px;
+  border-radius: 5px;
+  background: var(--c-primary);
+  color: var(--c-white);
+  border: 1px solid rgba(255, 0.255, 0.255, 0.1);
+}
+
+.subscribe-section__email {
+  max-width: 350px;
+  // @include breakpoint($mobile) {
+  //   max-width: 300px;
+  // }
+}

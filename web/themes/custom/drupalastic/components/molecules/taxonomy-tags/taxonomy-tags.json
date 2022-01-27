@@ -1,0 +1,17 @@
+{
+  "tags": [
+    {
+      "extra_classes": ["blog__tags-list-item"],
+      "linkText": "Porro",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "Animal",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "Ludus",
+      "linkUrl": "#"
+    }
+  ]
+}

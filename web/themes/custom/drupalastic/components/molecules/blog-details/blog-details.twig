@@ -1,0 +1,57 @@
+
+<div class="blog-content">
+<div class="blog__link">
+  {% include "@atoms/link/link.twig" with {
+    linkText: BlogDetails.linkText,
+    linkUrl: BlogDetails.linkUrl
+    } %}
+</div>
+
+  <div class="blog__image">
+    {% include "@atoms/image/image.twig" with {
+      "blogimgSrc": BlogDetails.blogimgSrc
+    } %}
+  </div>
+  <div class="blog__cat-taxanomy">
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": BlogDetails.blogCategory
+    } %}
+  </div>
+  <div class="blog__main-title">
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": BlogDetails.blogTitle,
+      "extra_classes": ["blog__title"]
+    } %}
+  </div>
+  <div class="blog__author">
+    <div class="blog__author-image">
+      {% include "@atoms/image/image.twig" with {
+      "blogimgSrc": BlogDetails.authorImage
+    } %}
+    </div>
+    <div class="blog__author-name">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": BlogDetails.authorName
+    } %}
+    </div>
+    <div class="blog__author-date">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": BlogDetails.authorDate
+    } %}
+    </div>
+  </div>
+  <div class="blog__body">
+      {{ BlogDetails.bodyText }}
+  </div>
+  <div class="blog__tag-share">
+    {% include "@molecules/taxonomy-tags/taxonomy-tags.twig" with {
+      "tags": BlogDetails.tags
+    } %}
+    <div class="share-blog">
+      {% include "@atoms/share/share.twig" with {
+        "blogShare": BlogDetails.blogShare,
+        "shareText": shareText
+      } %}
+    </div>
+  </div>
+</div>

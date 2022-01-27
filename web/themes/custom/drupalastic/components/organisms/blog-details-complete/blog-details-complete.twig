@@ -1,0 +1,52 @@
+<div class="blog-details-section">
+    <div class="blog-container">
+        <div class="blog-section">
+          <div class="blog-details">
+            {% if drupal_blog %}
+              {{ drupal_blog }}
+            {% else %}
+              {% include "@molecules/blog-details/blog-details.twig" with {
+              "blogShare": BlogDetails.blogShare
+              } %}
+            {% endif %}
+          </div>
+        {% if drupal_blog_author %}
+          {{ drupal_blog_author }}
+        {% else %}
+          <div class="blog-author-section">
+            {% include "@molecules/author/author.twig" with {
+              "authorimgSrc": authorimgSrc,
+              "title": title,
+              "authorName": authorName,
+              "authorDesc": authorDesc
+            } %}
+          </div>
+        {% endif %}
+      </div>
+  {# Sidebar #}
+        <div class="blog-sidebar">
+        {% if search %}
+          {{ search }}
+          {% else %}
+            {% include "@atoms/textbox/textbox.twig" with {
+              "txtClass": "sidebar-search"
+            } %}
+          {% endif %}
+        {% if drupal_sidebar_categories %}
+          {{ drupal_sidebar_categories }}
+        {% else %}
+          {% include "@molecules/taxonomy/taxonomy.twig" %}
+        {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="subscribe">
+  {% if drupal_subscribe %}
+    {{ drupal_subscribe }}
+  {% else %}
+    {% include "@molecules/subscribe/subscribe.twig" %}
+  {% endif %}
+</div>
+
+

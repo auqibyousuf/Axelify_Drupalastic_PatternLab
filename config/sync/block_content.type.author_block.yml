@@ -1,0 +1,8 @@
+uuid: c8b34b9d-c73c-4e0a-a82f-76334f4f89bb
+langcode: en
+status: true
+dependencies: {  }
+id: author_block
+label: 'Author Block'
+revision: 0
+description: ''

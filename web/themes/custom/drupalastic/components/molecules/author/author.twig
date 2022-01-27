@@ -1,0 +1,35 @@
+<div class="blog-author">
+  {% include "@atoms/image/image.twig" with {
+    "blogimgSrc": authorimgSrc,
+    "class": "blogs-author__image"
+  } %}
+  <div class="blog-author-details">
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": title,
+      "extra_classes": ["blog-author__title"]
+    } %}
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": authorName,
+      "extra_classes": ["blog-author__name"]
+    } %}
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+      "text": authorDesc,
+      "extra_classes": ["blog-author__desc"]
+    } %}
+  </div>
+</div>
+
+{# <div class="blogs-author">
+  <img class="blogs-author__image" src="{{ content.field_image[0]['#markup'] }}" />
+  <div class="blogs-author-details">
+    <p class="blogs-author__title">
+      {{ content.field_title[0]['#context'].value }}
+    </p>
+    <p class="blogs-author__name">
+      {{ content.field_name[0]['#context'].value }}
+      <p>
+        <p class="blogs-author__desc">
+          {{ content.field_desc[0]['#context'].value }}
+        </p>
+      </div>
+    </div> #}

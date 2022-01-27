@@ -1,0 +1,16 @@
+
+<h2>
+  {{ taxonomyTitle }}
+</h2>
+<ul class="blog-categories">
+  {% for item in taxonomy %}
+    <li class="blog-categories__list-item">
+      {% include "@atoms/link/link.twig" with {
+        "linkUrl": item.linkUrl,
+        "linkText": item.linkText,
+        itemClasses: "categories__list-link"
+      } %}
+    </li>
+  {% endfor %}
+</ul>
+

@@ -1,0 +1,41 @@
+@import '../../config.all';
+.blog__share {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+  h2 {
+    color: var(--c-black-50);
+  }
+}
+.share-section {
+  display: flex;
+  p {
+    color: var(--c-black-50);
+  }
+}
+.blog-share-on {
+  display: flex;
+  list-style: none;
+  a {
+    color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    display: flex;
+  }
+  a[href*='facebook'] {
+    background-image: url(/themes/custom/drupalastic/images/facebook.png);
+  }
+  a[href*='instagram'] {
+    background-image: url(/themes/custom/drupalastic/images/instagram.png);
+  }
+  a[href*='twitter'] {
+    background-image: url(/themes/custom/drupalastic/images/twitter.png);
+  }
+}
+.blog-share-on__list {
+  display: flex;
+}

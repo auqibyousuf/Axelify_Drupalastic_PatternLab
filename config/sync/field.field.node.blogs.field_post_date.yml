@@ -1,0 +1,19 @@
+uuid: 4d3a84ed-d50c-46ea-9e35-9e473c1c2e01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post_date
+    - node.type.blogs
+id: node.blogs.field_post_date
+field_name: field_post_date
+entity_type: node
+bundle: blogs
+label: 'Post date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

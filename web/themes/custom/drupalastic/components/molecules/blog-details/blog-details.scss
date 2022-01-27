@@ -1,0 +1,129 @@
+@import '../../config.all';
+
+.blog-content {
+  padding: 0 15px;
+}
+.blog__link {
+  padding-bottom: 40px;
+  color: var(--c-background);
+  // width: 1440px;
+  a {
+    @include link-clear;
+    color: var(--c-black-50);
+  }
+  a:before {
+    content: url(/themes/custom/drupalastic/images/backlink.png);
+    width: 14px;
+    margin-right: 12px;
+  }
+}
+.blog__image {
+  img {
+    border-radius: 10px;
+    max-width: 834px;
+    @include breakpoint($mobile) {
+      width: 100%;
+    }
+    @include breakpoint($tablet) {
+      width: 100%;
+    }
+  }
+}
+.blog__title {
+  font-size: 72px;
+  font-family: var(--f-secondary);
+  line-height: 80px;
+  width: 674px;
+  height: 160px;
+  margin-top: 24px;
+  font-weight: normal;
+  @include breakpoint($mobile) {
+    font-size: 55px;
+    height: 192px;
+    width: 310px;
+    margin-bottom: 120px;
+  }
+  @include breakpoint($tablet) {
+    width: 100%;
+  }
+}
+
+.blog__author {
+  display: flex;
+  align-items: center;
+  margin: 45px 0px;
+}
+.blog__author-image {
+  margin-right: 16px;
+  img {
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+  }
+}
+.blog__author-name {
+  margin-right: 16px;
+  font-weight: bold;
+}
+.blog__author-date {
+  color: var(--c-black-50);
+}
+
+.blog__body {
+  max-width: 835px;
+  border-bottom: 1px solid var(--c-black-50);
+  p {
+    padding-bottom: 25px;
+    color: var(--c-black-50);
+    line-height: 24px;
+  }
+  h3 {
+    p {
+      color: var(--c-black);
+      margin-bottom: 25px;
+      font-family: var(--f-secondary);
+      font-size: 24px;
+    }
+  }
+
+  ul {
+    margin-bottom: 40px;
+    li {
+      list-style: none;
+      a {
+        color: var(--c-black);
+      }
+    }
+    li:before {
+      content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: var(--c-primary); /* Change the color */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      font-size: 24px;
+    }
+  }
+  blockquote {
+    position: relative;
+    margin: 20px 0px;
+    border-left: 4px solid var(--c-secondary-light);
+    p {
+      color: var(--c-black);
+      line-height: 32px;
+      max-width: 807px;
+      font-size: 20px;
+      margin-left: 24px;
+    }
+  }
+}
+.blog__cat-taxanomy {
+  padding: 40px 0px;
+}
+
+.blog__tag-share {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  justify-content: space-between;
+  max-width: 840px;
+}

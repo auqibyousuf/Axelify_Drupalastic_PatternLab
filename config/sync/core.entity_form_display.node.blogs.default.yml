@@ -4,13 +4,25 @@ status: true
 dependencies:
   config:
     - field.field.node.blogs.body
+    - field.field.node.blogs.field_author_image
+    - field.field.node.blogs.field_author_name
+    - field.field.node.blogs.field_back
+    - field.field.node.blogs.field_blog_cat
+    - field.field.node.blogs.field_blog_categories
     - field.field.node.blogs.field_blog_date
     - field.field.node.blogs.field_blog_image
+    - field.field.node.blogs.field_blog_main_body
+    - field.field.node.blogs.field_blog_main_image
+    - field.field.node.blogs.field_blog_main_title
+    - field.field.node.blogs.field_post_date
+    - field.field.node.blogs.field_share
+    - field.field.node.blogs.field_tags_blog
     - image.style.thumbnail
     - node.type.blogs
   module:
     - datetime
     - image
+    - link
     - path
     - text
 id: node.blogs.default
@@ -34,6 +46,48 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_author_image:
+    weight: 126
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_author_name:
+    weight: 127
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_back:
+    weight: 133
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_blog_cat:
+    weight: 131
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_blog_categories:
+    weight: 130
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_blog_date:
     weight: 122
     settings: {  }
@@ -47,6 +101,58 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_blog_main_body:
+    weight: 125
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_blog_main_image:
+    weight: 124
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_blog_main_title:
+    weight: 132
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_post_date:
+    weight: 128
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_share:
+    weight: 134
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_tags_blog:
+    weight: 129
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   path:
     type: path

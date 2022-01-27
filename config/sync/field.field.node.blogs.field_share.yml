@@ -1,0 +1,23 @@
+uuid: 6d0c3148-af3d-4fe5-9af9-a5f3b8c62b20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_share
+    - node.type.blogs
+  module:
+    - link
+id: node.blogs.field_share
+field_name: field_share
+entity_type: node
+bundle: blogs
+label: 'Share on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

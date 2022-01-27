@@ -1,0 +1,43 @@
+{
+  "BlogDetails": {
+    "linkText": "Back to Blog",
+    "linkUrl": "http://www.google.com",
+    "blogimgSrc": "/images/post-1.png",
+    "blogCategory": "Eloquentiam",
+    "blogTitle": "Ea cum vide impetus deserunt",
+    "bodyText": "<p> Altera integre suavitate per an, alienum phaedrum te sea. Ex sea causae dolores, nam et doming dicunt feugait. Ea mel scripta aperiri postulant. Ut sed affert audire, no alienum quaestio mea. Vidit maiestatis his ut, principes persecuti maiestatis mei ex, mei ei tollit epicurei invenire</p><p>His dolorem habemus mandamus et, eius ponderum at nec. Cum lorem molestiae ne, esse vulputate definitiones ut est. Fastidii iracundia at quo. Sit bonorum graecis convenire te, nec wisi assum novum eu. At sea dolorum constituto, ad solet pertinacia neglegentur vis.</p><blockquote><p>His dolorem habemus mandamus et, eius ponderum at nec. Cum lorem molestiae ne, esse vulputate definitiones ut est. Fastidii iracundia at quo. Sit bonorum graecis convenire te, nec wisi assum novum eu.</p></blockquote><p>Erroribus vituperatoribus no eos, no nobis alienum per. Quo in tacimates recusabo scripserit, in mea tantas soleat imperdiet, ut vim illum dicam disputationi. Unum porro audiam at vel, eu nam primis regione. Vix ad everti diceret, ei omnium regione admodum sit.</p><h3><p>Maluisset gubergren</p></h3><p>Mea an decore veritus probatus. Nec ea affert verterem. Vix probo semper et, mea simul graeco diceret te. Qui no stet ferri qualisque, ut clita scripserit nec. Ei mei fabellas gubergren, ius nostro senserit adversarium te.</p><ul><li>Vix dicam dolore</li><li>Mel erat timeam</li><li>Sit alii tantas</li></ul><p>Te aliquam noluisse his. Et vel epicuri detracto indoctum, et fierent pericula vim, veniam epicuri an eum. Ad mutat quaestio erroribus eam, ei mea modus volumus abhorreant. Mea iisque mentitum signiferumque te, sed commune erroribus scripserit ut, vocibus facilis sea an. Fabulas invenire partiendo eu ius. Sale veritus cu est, homero perpetua referrentur ea nam.</p>",
+    "authorImage": "/images/author-cyla.png",
+    "authorName": "Cayla Brister",
+    "authorDate": "20 July 2019",
+    "blogShare": [
+      {
+        "linkText": "Facebook",
+        "linkUrl": "/images/facebook.png"
+      },
+      {
+        "linkText": "Instagram",
+        "linkUrl": "/images/instagram.png"
+      },
+      {
+        "linkText": "Twitter",
+        "linkUrl": "/images/twitter.png"
+      }
+    ],
+    "tags": [
+      {
+        "extra_classes": ["blog__tags-list-item"],
+        "linkText": "Porro",
+        "linkUrl": "#"
+      },
+      {
+        "linkText": "Animal",
+        "linkUrl": "#"
+      },
+      {
+        "linkText": "Ludus",
+        "linkUrl": "#"
+      }
+    ]
+  },
+  "shareText": "Share on"
+}

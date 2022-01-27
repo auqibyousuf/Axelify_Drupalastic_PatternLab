@@ -1,0 +1,25 @@
+uuid: 01d1461f-a775-4738-b0a3-22480f518ec0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:85f1de99-ec02-49fe-b136-248fd9c819be'
+  module:
+    - block_content
+  theme:
+    - drupalastic
+id: subscribedata
+theme: drupalastic
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:85f1de99-ec02-49fe-b136-248fd9c819be'
+settings:
+  id: 'block_content:85f1de99-ec02-49fe-b136-248fd9c819be'
+  label: 'Subscribe Data'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

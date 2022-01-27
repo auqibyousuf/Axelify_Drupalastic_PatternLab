@@ -3,8 +3,6 @@
   position: relative;
   top: 1em;
   @include breakpoint($desktop) {
-    max-width: 1140px;
-    margin: 0 auto;
     top: 1em;
     left: 0.5em;
   }

@@ -1,0 +1,24 @@
+<div class="subscribe-section">
+  <div class="subscribe-container">
+    <div class="subscribe-section__text">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": SubscribeData.subTitle,
+        "extra_classes": ["subscribe-section__heading"]
+      } %}
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": SubscribeData.subSubTitle,
+        "extra_classes": ["subscribe-section__subheading"]
+      } %}
+    </div>
+    <div class="subscribe-section-form">
+    {% include "@atoms/textbox/textbox.twig" with {
+          "txtPlaceholder": SubscribeData.txtPlaceholder,
+          "txtClass": SubscribeData.txtClass
+    } %}
+    {% include "@atoms/button/button.twig" with {
+      "button_title": SubscribeData.subBtnText,
+      "variant": "subscribe-section__button"
+    } %}
+    </div>
+  </div>
+</div>

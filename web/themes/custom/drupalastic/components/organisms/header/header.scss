@@ -1,8 +1,12 @@
 @import '../../config.all';
-.header {
+.header-wrapper {
   background-color: var(--c-primary);
   position: relative;
   height: 100px;
+}
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .hamburger {
   display: none;

@@ -5,8 +5,11 @@ dependencies:
   config:
     - block_content.type.basic
     - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_subscribe
+    - field.field.block_content.basic.field_subtitle
+    - field.field.block_content.basic.field_title
   module:
-    - text
+    - webform
 _core:
   default_config_hash: orJpHUlAc_wiQLMUjIgEJXGeiqylGHMPcmNRjGtct-M
 id: block_content.basic.default
@@ -14,11 +17,29 @@ targetEntityType: block_content
 bundle: basic
 mode: default
 content:
-  body:
+  field_subscribe:
+    weight: 2
     label: hidden
-    type: text_default
-    weight: 0
-    region: content
-    settings: {  }
+    settings:
+      source_entity: true
     third_party_settings: {  }
-hidden: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  field_subtitle:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  body: true

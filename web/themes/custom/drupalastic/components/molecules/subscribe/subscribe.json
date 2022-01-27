@@ -1,0 +1,9 @@
+{
+  "SubscribeData": {
+    "subTitle": "pericula",
+    "subSubTitle": "Mea modus volumus abhorreant",
+    "subBtnText": "Subscribe",
+    "txtPlaceholder": "Email",
+    "txtClass": "subscribe-section__email"
+  }
+}

@@ -1,4 +1,4 @@
-@mixin input {
+.txtbox {
   background: #ffffff;
   border: 1px solid #dadada;
   box-sizing: border-box;
@@ -6,5 +6,11 @@
   height: 50px;
   color: rgba(0, 0, 0, 0.5);
   padding: 10px;
-  width: 470px;
+  width: 350px;
+}
+.txtbox:focus {
+  outline: none;
+}
+.txtbox:active {
+  outline: none;
 }
