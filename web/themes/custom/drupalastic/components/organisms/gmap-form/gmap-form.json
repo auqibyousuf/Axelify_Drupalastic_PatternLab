@@ -1,0 +1,13 @@
+{
+  "blogimgSrc": "/images/Map.png",
+  "class": [],
+  "Form": {
+    "txtAreaPlaceholder": "Message_PL",
+    "extra_class": "Class_PL",
+    "variant": "variant class",
+    "txtPlaceholder": "Placeholder",
+    "txtClass": "txtClass",
+    "title": "Ancillae",
+    "subTitle": "Scribentur"
+  }
+}

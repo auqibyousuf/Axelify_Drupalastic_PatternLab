@@ -63,7 +63,6 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-      {# {{ kpr(page.content) }} #}
       {% include "@organisms/blog-details-complete/blog-details-complete.twig" with {
         "drupal_blog_link": page.content.share_on,
         "drupal_blog": page.content.system_main,
@@ -72,10 +71,14 @@
         "search": page.sidebar.webform,
         "drupal_sidebar_categories": page.sidebar.categories
       } %}
-      {{ page.content|without("share_on", "system_main", 'authorblock', "subscribedata") }}
+      {{ page.content|without("share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2") }}
+      {% include "@organisms/gmap-form/gmap-form.twig" with {
+      "drupal_gmap": page.content.gmap,
+      "drupal_form": page.content.webform_2
+      } %}
     </div>{# /.layout-content #}
       {{ page.sidebar|without("categories", "webform") }}
-      {# {{ page.sidebar }} #}
+      {{ page.sidebar }}
   </main>
 
   {% if page.footer %}
@@ -89,7 +92,6 @@
         "footer_secondary": page.footer.footersecondary
       } %}
       {{ page.footer|without("footerlogoandinfo", "footerlogoandinfo", "footersociallinks", "footercausaemenu", "footeraperirimenu", "views_block__latest_blogs_block_1", "footersecondary") }}
-    {# {{ page.footer }} #}
     </footer>
   {% endif %}
 </div>{# /.layout-container #}

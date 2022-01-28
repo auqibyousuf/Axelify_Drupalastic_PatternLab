@@ -1,0 +1,20 @@
+<div class="gmap-contact-wrapper">
+  <div class="gmap-contact-section">
+  {% if drupal_gmap %}
+    {{ drupal_gmap }}
+  {% else %}
+    <div class="gmap-section">
+      {% include "@atoms/iframe/iframe.twig" with {
+        "class": "gmap-frame"
+      } %}
+    </div>
+  {% endif %}
+  {% if drupal_form %}
+  {{ drupal_form }}
+  {% else %}
+    <div class="contact-section">
+      {% include "@molecules/contact/contact.twig" %}
+    </div>
+  {% endif %}
+  </div>
+</div>

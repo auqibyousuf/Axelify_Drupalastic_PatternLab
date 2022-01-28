@@ -52,6 +52,13 @@ blog-listing:
       dist/components/organisms/blog-details-complete/blog-details-complete.css: {}
       dist/components/atoms/share/share.css: {}
 
+gmap:
+  css:
+    theme:
+      dist/components/atoms/textarea/textarea.css: {}
+      dist/components/molecules/contact/contact.css: {}
+      dist/components/atoms/iframe/iframe.css: {}
+      dist/components/organisms/gmap-form/gmap-form.css: {}
 
 
 

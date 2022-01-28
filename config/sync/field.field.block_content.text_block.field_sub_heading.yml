@@ -1,0 +1,19 @@
+uuid: d2a478f5-5d0f-4861-8eef-655359034932
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_block
+    - field.storage.block_content.field_sub_heading
+id: block_content.text_block.field_sub_heading
+field_name: field_sub_heading
+entity_type: block_content
+bundle: text_block
+label: 'Sub Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

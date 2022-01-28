@@ -1,16 +1,10 @@
+@import '../../config.all';
 .txtbox {
-  background: #ffffff;
-  border: 1px solid #dadada;
+  background: var(--c-white);
+  border: 1px solid var(--c-grey-light);
   box-sizing: border-box;
   border-radius: 5px;
   height: 50px;
-  color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   width: 350px;
-}
-.txtbox:focus {
-  outline: none;
-}
-.txtbox:active {
-  outline: none;
 }

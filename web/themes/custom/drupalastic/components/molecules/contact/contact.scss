@@ -1,0 +1,36 @@
+@import '../../config.all';
+.gmap-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-textbox {
+  width: 470px;
+  @include breakpoint($mobile) {
+    width: 300px;
+  }
+  @include breakpoint($tablet) {
+    width: 500px;
+  }
+}
+.gmap-form__btn-submit {
+  width: 170px;
+  border-radius: 5px;
+  text-transform: none;
+}
+.form-heading {
+  p {
+    color: var(--c-white);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+  }
+}
+.form-subheading {
+  p {
+    color: var(--c-white);
+    font-size: 56px;
+    padding-bottom: 50px;
+    line-height: 20px;
+    font-family: var(--f-secondary);
+  }
+}

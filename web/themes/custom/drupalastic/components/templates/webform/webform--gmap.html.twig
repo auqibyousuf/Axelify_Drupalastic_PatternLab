@@ -21,19 +21,13 @@
  * @ingroup themeable
  */
 #}
-{# <form{{ attributes }}>
-  {{ title_prefix }}
-  {{ children }}
-  {{ title_suffix }}
-</form> #}
-{# {% include "@molecules/subscribe/subscribe.twig" with {
-  SubscribeData: {
-  txtPlaceholder:"Email",
-  txtClass:
-}
-} %} #}
-{# {{ kpr() }} #}
-{% include "@atoms/textbox/textbox.twig" with {
-  "txtPlaceholder": "Search",
-  "txtClass": "sidebar-search"
+{% include "@molecules/contact/contact.twig" with {
+  Form: {
+    "txtPlaceholder": "Email",
+    "txtAreaPlaceholder": "Message",
+    "button_title": "Submit",
+    "txtClass": "contact-textbox",
+    "title": element.elements.markup['#markup'],
+    "subTitle": element.elements.markup_01['#markup']
+  }
 } %}

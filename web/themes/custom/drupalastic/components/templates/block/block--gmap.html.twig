@@ -25,4 +25,6 @@
  * @see template_preprocess_block()
  */
 #}
-{% include '@templates/block/block--footercausaemenu.html.twig' %}
+{% include "@atoms/iframe/iframe.twig" with {
+  "class": "gmap-frame"
+} %}

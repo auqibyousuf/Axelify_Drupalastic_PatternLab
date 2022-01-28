@@ -1,0 +1,26 @@
+<div class="gmap-form">
+  <div class="gmap-form__text-section">
+    <div class="form-heading">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": Form.title
+      } %}
+    </div>
+    <div class="form-subheading">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": Form.subTitle
+      } %}
+    </div>
+  </div>
+  {% include "@atoms/textbox/textbox.twig" with {
+    "txtPlaceholder": Form.txtPlaceholder,
+    "txtClass": "contact-textbox"
+  } %}
+  {% include "@atoms/textarea/textarea.twig" with {
+      "txtAreaPlaceholder": Form.txtAreaPlaceholder
+  } %}
+
+  {% include "@atoms/button/button.twig" with {
+    "button_title": "Submit",
+    "variant": "gmap-form__btn-submit"
+  } %}
+</div>
