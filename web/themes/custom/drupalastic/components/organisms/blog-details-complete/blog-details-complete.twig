@@ -9,7 +9,6 @@
               "blogShare": BlogDetails.blogShare
               } %}
             {% endif %}
-          </div>
         {% if drupal_blog_author %}
           {{ drupal_blog_author }}
         {% else %}
@@ -22,8 +21,12 @@
             } %}
           </div>
         {% endif %}
+        </div>
       </div>
-  {# Sidebar #}
+
+        {% if sidebar %}
+        {{ sidebar }}
+        {% else %}
         <div class="blog-sidebar">
         {% if search %}
           {{ search }}
@@ -38,6 +41,7 @@
           {% include "@molecules/taxonomy/taxonomy.twig" %}
         {% endif %}
         </div>
+      {% endif %}
     </div>
 </div>
 

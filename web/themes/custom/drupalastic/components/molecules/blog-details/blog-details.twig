@@ -1,12 +1,11 @@
 
 <div class="blog-content">
-<div class="blog__link">
-  {% include "@atoms/link/link.twig" with {
-    linkText: BlogDetails.linkText,
-    linkUrl: BlogDetails.linkUrl
-    } %}
-</div>
-
+  <div class="blog__link">
+    {% include "@atoms/link/link.twig" with {
+      linkText: BlogDetails.linkText,
+      linkUrl: BlogDetails.linkUrl
+      } %}
+  </div>
   <div class="blog__image">
     {% include "@atoms/image/image.twig" with {
       "blogimgSrc": BlogDetails.blogimgSrc
