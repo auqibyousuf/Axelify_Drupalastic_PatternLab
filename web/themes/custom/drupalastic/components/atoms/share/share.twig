@@ -1,0 +1,19 @@
+<div class="share-section">
+  {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": shareText
+} %}
+{% if drupal_share %}
+  {{ drupal_share }}
+{% else %}
+  <ul class="blog-share-on">
+    {% for item in blogShare %}
+      <li class="blog-share-on__list-item">
+        {% include "@atoms/link/link.twig" with {
+        "linkUrl": item.linkUrl,
+        "extra_classes": "blog-share-on__link",
+      } %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

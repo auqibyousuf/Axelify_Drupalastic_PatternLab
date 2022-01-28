@@ -1,0 +1,37 @@
+@import '../../config.all';
+.blog-details-section {
+  background: var(--c-background);
+}
+.blog-section {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @include breakpoint($mobile) {
+    flex-direction: column;
+  }
+  @include breakpoint($tablet) {
+    flex-direction: column;
+    margin-left: 12px;
+  }
+}
+
+.blog-sidebar {
+  padding-top: 70px;
+  h2 {
+    font-size: 24px;
+  }
+  @include breakpoint($mobile) {
+    padding-left: 15px;
+  }
+}
+
+.sidebar-search {
+  margin-bottom: 70px;
+}
+
+.blog-author-section {
+  padding: 0 15px;
+}

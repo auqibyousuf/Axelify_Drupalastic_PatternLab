@@ -5,8 +5,19 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.blogs.body
+    - field.field.node.blogs.field_author_image
+    - field.field.node.blogs.field_author_name
+    - field.field.node.blogs.field_back
+    - field.field.node.blogs.field_blog_cat
+    - field.field.node.blogs.field_blog_categories
     - field.field.node.blogs.field_blog_date
     - field.field.node.blogs.field_blog_image
+    - field.field.node.blogs.field_blog_main_body
+    - field.field.node.blogs.field_blog_main_image
+    - field.field.node.blogs.field_blog_main_title
+    - field.field.node.blogs.field_post_date
+    - field.field.node.blogs.field_share
+    - field.field.node.blogs.field_tags_blog
     - node.type.blogs
   module:
     - datetime
@@ -44,4 +55,15 @@ content:
       image_style: ''
     third_party_settings: {  }
 hidden:
+  field_author_image: true
+  field_author_name: true
+  field_back: true
+  field_blog_cat: true
+  field_blog_categories: true
+  field_blog_main_body: true
+  field_blog_main_image: true
+  field_blog_main_title: true
+  field_post_date: true
+  field_share: true
+  field_tags_blog: true
   links: true

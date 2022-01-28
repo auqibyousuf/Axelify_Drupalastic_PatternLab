@@ -1,0 +1,25 @@
+uuid: ba19078d-3528-4d93-ac3e-312c7ff02ec5
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.search
+  module:
+    - webform
+  theme:
+    - drupalastic
+id: webform
+theme: drupalastic
+region: sidebar
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: search
+  default_data: ''
+  redirect: false
+visibility: {  }

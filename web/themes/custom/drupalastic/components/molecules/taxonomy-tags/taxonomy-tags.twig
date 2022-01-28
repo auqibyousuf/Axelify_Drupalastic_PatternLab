@@ -1,0 +1,13 @@
+{% if drupal_tags %}
+  {{ drupal_tags }}
+{% else %}
+  <ul class="blog__tags-list">
+    {% for tag in tags %}
+      <li class="blog__tags-list-item">
+        <a href="{{ tag.linkUrl }}">
+          {{ tag.linkText }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

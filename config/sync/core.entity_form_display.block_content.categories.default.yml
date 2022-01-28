@@ -1,0 +1,31 @@
+uuid: 5ae7276a-11fc-4a46-9aca-72f26fccd7b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.categories
+    - field.field.block_content.categories.field_name
+id: block_content.categories.default
+targetEntityType: block_content
+bundle: categories
+mode: default
+content:
+  field_name:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

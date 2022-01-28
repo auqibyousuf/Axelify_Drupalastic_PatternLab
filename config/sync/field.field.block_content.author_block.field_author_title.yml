@@ -1,0 +1,19 @@
+uuid: b9ea4300-38f8-4c60-bcb5-128697fc9cd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.author_block
+    - field.storage.block_content.field_author_title
+id: block_content.author_block.field_author_title
+field_name: field_author_title
+entity_type: block_content
+bundle: author_block
+label: 'Author Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

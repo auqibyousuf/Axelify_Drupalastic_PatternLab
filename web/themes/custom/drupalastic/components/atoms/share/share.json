@@ -1,0 +1,17 @@
+{
+  "shareText": "Share on",
+  "blogShare": [
+    {
+      "linkText": "Facebook",
+      "linkUrl": "/images/facebook.png"
+    },
+    {
+      "linkText": "Instagram",
+      "linkUrl": "/images/instagram.png"
+    },
+    {
+      "linkText": "Twitter",
+      "linkUrl": "/images/twitter.png"
+    }
+  ]
+}

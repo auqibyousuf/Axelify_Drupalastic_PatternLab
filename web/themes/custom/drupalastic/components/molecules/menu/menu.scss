@@ -71,12 +71,9 @@
 .nav-menu__item:last-child {
   border: 1px solid var(--c-white-50);
   border-radius: 5px;
-  width: 170px;
-  line-height: 2;
+  width: 120px;
   font-size: 16px;
   text-align: center;
-  margin-top: -5px;
-  padding: 7px;
   @include breakpoint($mobile) {
     display: none;
   }

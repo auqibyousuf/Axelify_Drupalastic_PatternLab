@@ -1,0 +1,25 @@
+{
+  "taxonomyTitle": "Categories",
+  "taxonomy": [
+    {
+      "linkText": "Principes",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "Nullam",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "Quaerendum",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "Deterruisset",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "Erroribus",
+      "linkUrl": "#"
+    }
+  ]
+}

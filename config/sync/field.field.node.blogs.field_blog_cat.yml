@@ -1,0 +1,19 @@
+uuid: 8e9c2cd5-93a3-4e4f-8bd8-4cee54ef4ff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_cat
+    - node.type.blogs
+id: node.blogs.field_blog_cat
+field_name: field_blog_cat
+entity_type: node
+bundle: blogs
+label: 'Blog Cat'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

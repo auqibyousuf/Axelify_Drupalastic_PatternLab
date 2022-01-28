@@ -41,3 +41,20 @@ footer:
       dist/components/molecules/footer-secondary/footer-secondary.css: {}
       dist/components/organisms/footer/footer.css: {}
 
+blog-listing:
+  css:
+    theme:
+      dist/components/molecules/author/author.css: {}
+      dist/components/molecules/blog-details/blog-details.css: {}
+      dist/components/molecules/taxonomy/taxonomy.css: {}
+      dist/components/molecules/taxonomy-tags/taxonomy-tags.css: {}
+      dist/components/molecules/subscribe/subscribe.css: {}
+      dist/components/atoms/textbox/textbox.css: {}
+      dist/components/organisms/blog-details-complete/blog-details-complete.css: {}
+      dist/components/atoms/share/share.css: {}
+
+
+
+
+
+
