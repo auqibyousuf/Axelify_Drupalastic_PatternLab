@@ -1,0 +1,27 @@
+.info-social-container {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.info-social__list-item {
+  background: var(--c-primary);
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  display: flex;
+  a {
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  a[href*='facebook'] {
+    background-image: url(/themes/custom/drupalastic/images/contact/facebook.png);
+  }
+  a[href*='instagram'] {
+    background-image: url(/themes/custom/drupalastic/images/contact/instagram.png);
+  }
+  a[href*='twitter'] {
+    background-image: url(/themes/custom/drupalastic/images/contact/twitter.png);
+  }
+}

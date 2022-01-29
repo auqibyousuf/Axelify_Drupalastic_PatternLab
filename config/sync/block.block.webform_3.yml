@@ -1,0 +1,25 @@
+uuid: 8a692965-5122-4bbd-80c8-87162e8664cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact_message
+  module:
+    - webform
+  theme:
+    - drupalastic
+id: webform_3
+theme: drupalastic
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Message
+  provider: webform
+  label_display: visible
+  webform_id: contact_message
+  default_data: ''
+  redirect: false
+visibility: {  }

@@ -1,0 +1,14 @@
+{% if d_s %}
+  {{ d_s }}
+{% else %}
+  <ul class="{{ wrapperClassListSocial }}">
+    {% for menu in socialmenus %}
+      <li class="{{ wrapperClassItemSocial }}">
+        {% include "@atoms/link/link.twig" with {
+            "linkUrl": menu.linkUrl,
+            "extra_classes": extra_classes,
+          } %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

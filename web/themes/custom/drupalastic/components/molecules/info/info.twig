@@ -1,0 +1,43 @@
+{% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": titleInfo,
+  "extra_classes": ['info-title']
+} %}
+  <div class="location-section">
+    {% include "@atoms/image/image.twig" with {
+    "blogimgSrc": Location.blogimgSrc,
+    "class": "info-img"
+    } %}
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+    "text": Location.text
+    } %}
+  </div>
+  <div class="phone-section">
+    {% include "@atoms/image/image.twig" with {
+    "blogimgSrc": Phone.blogimgSrc,
+    "class": "info-img"
+    } %}
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+    "text": Phone.text
+    } %}
+  </div>
+  <div class="mail-section">
+    {% include "@atoms/image/image.twig" with {
+    "blogimgSrc": Mail.blogimgSrc,
+    "class": "info-img"
+    } %}
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+    "text": Mail.text
+    } %}
+  </div>
+  {% if drupal_social_links %}
+    {{ drupal_social_links }}
+    {% else %}
+  <div class="info-social-link">
+    {% include "@molecules/social-menu/social-menu.twig" with {
+      "wrapperClassListSocial": "info-social-container",
+      "wrapperClassItemSocial": "info-social__list-item",
+      "wrapperClassesLinkSocial": "info-social__item-link",
+      "socialmenus": socialmenus
+    } %}
+  </div>
+{% endif %}

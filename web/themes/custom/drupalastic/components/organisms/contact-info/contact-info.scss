@@ -1,0 +1,32 @@
+@import '../../config.all';
+.message-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  @include breakpoint($mobile) {
+    flex-direction: column;
+  }
+}
+.gmap-contact {
+  iframe {
+    width: 1440px;
+    height: 640px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    @include breakpoint($mobile) {
+      width: 340px;
+      height: 190px;
+    }
+  }
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact-info-wrapper {
+  max-width: 500px;
+}

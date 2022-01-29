@@ -21,6 +21,7 @@ libraries:
   - drupalastic/footer
   - drupalastic/blog-listing
   - drupalastic/gmap
+  - drupalastic/contact
 
 components:
   namespaces:

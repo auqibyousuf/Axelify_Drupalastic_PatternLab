@@ -1,0 +1,43 @@
+{
+  "titleContact": "Message",
+  "Name": "Your Name",
+  "Email": "Your Email",
+  "Message": "Your Message",
+  "button_title": "Submit",
+  "titleInfo": "Info",
+  "heading": "Contact",
+  "subHeading": "Pro eu apeirian suavitate dissentiet",
+  "Location": {
+    "blogimgSrc": "/images/location.png",
+    "text": "123 Dicunt Ancillae, Mea Homero Persequeris USA"
+  },
+  "Phone": {
+    "blogimgSrc": "/images/phone.png",
+    "text": "123-4567890123"
+  },
+  "Mail": {
+    "blogimgSrc": "/images/mail.png",
+    "text": "info@gmail.com"
+  },
+  "SocialMenus": [
+    {
+      "linkUrl": "https://www.facebook.com",
+      "linkText": "Facebook"
+    },
+    {
+      "linkUrl": "https://www.instagram.com",
+      "linkText": "Instagram"
+    },
+    {
+      "linkUrl": "https://www.twitter.com",
+      "linkText": "Twitter"
+    }
+  ],
+  "SubscribeData": {
+    "subTitle": "pericula",
+    "subSubTitle": "Mea modus volumus abhorreant",
+    "subBtnText": "Subscribe",
+    "txtPlaceholder": "Email",
+    "txtClass": "subscribe-section__email"
+  }
+}

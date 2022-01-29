@@ -1,0 +1,51 @@
+@import '../../config.all';
+
+.info-form-container {
+  max-width: 835px;
+}
+
+.info-text {
+  display: flex;
+  justify-content: space-between;
+  @include breakpoint($mobile) {
+    height: 120px;
+    flex-direction: column;
+  }
+  @include breakpoint($tablet) {
+    height: 120px;
+    flex-direction: column;
+  }
+}
+.txtName {
+  width: 400px;
+  @include breakpoint($tablet) {
+    width: 490px;
+  }
+  @include breakpoint($mobile) {
+    width: 340px;
+  }
+}
+.txtEmail {
+  width: 400px;
+  @include breakpoint($tablet) {
+    width: 490px;
+  }
+  @include breakpoint($mobile) {
+    width: 340px;
+  }
+}
+.txtMsg {
+  width: 835px;
+  height: 134px;
+  @include breakpoint($tablet) {
+    width: 490px;
+  }
+  @include breakpoint($mobile) {
+    width: 340px;
+  }
+}
+.info-btn {
+  border-radius: 5px;
+  background: var(--c-primary);
+  text-transform: none;
+}

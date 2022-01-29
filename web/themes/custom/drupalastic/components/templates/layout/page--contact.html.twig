@@ -63,22 +63,14 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-      {% include "@organisms/blog-details-complete/blog-details-complete.twig" with {
-        "drupal_blog_link": page.content.share_on,
-        "drupal_blog": page.content.system_main,
-        "drupal_blog_author": page.content.authorblock,
-        "drupal_subscribe": page.content.subscribedata,
-        "search": page.sidebar.webform,
-        "drupal_sidebar_categories": page.sidebar.categories
-      } %}
-      {{ page.content|without("share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2") }}
-      {% include "@organisms/gmap-form/gmap-form.twig" with {
-        "drupal_gmap": page.content.gmap,
-        "drupal_form": page.content.webform_2
-      } %}
+    {% include "@organisms/contact-info/contact-info.twig" with {
+      "contact_gmap": page.contact.gmap_2,
+      "contact_form": page.content.webform_3,
+      "contact_info": page.content.info,
+      "drupal_subscribe": page.content.subscribedata,
+    } %}
+    {{ page.content|without("gmap_2", "webform_3", "info", "share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2") }}
     </div>{# /.layout-content #}
-      {{ page.sidebar|without("categories", "webform") }}
-      {{ page.sidebar }}
   </main>
 
   {% if page.footer %}
