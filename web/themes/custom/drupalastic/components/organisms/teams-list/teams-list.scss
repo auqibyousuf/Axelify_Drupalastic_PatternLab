@@ -10,20 +10,26 @@
   margin: 0 auto;
 }
 .teams-section__title {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  padding-bottom: 20px;
+  p {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    padding-bottom: 30px;
+  }
 }
 .teams-section__subtitle {
-  font-size: 56px;
-  margin-bottom: 30px;
-  line-height: 24px;
-  font-family: var(--f-secondary);
+  p {
+    font-size: 56px;
+    margin-bottom: 30px;
+    line-height: 24px;
+    font-family: var(--f-secondary);
+  }
 }
 .teams-section__discription {
-  font-size: 20px;
-  line-height: 32px;
-  margin-bottom: 36px;
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 36px;
+  }
 }
 
 .teams-container {

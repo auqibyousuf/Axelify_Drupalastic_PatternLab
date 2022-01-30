@@ -13,15 +13,18 @@
   </div>
   <div class="member-footer">
     <div class="member-item__designation">
-      {% include "@atoms/text/paragraph/paragraph.twig" with {
-        "text": Designation
-      } %}
+        {{ Designation }}
     </div>
-    {% include "@molecules/social-menu/social-menu.twig" with {
-      "wrapperClassListSocial": "member-social",
-      "wrapperClassItemSocial": "member-social__item",
-      "itemClassesSocial": ["member-social__link"],
-      socialmenus: SocialLinks
-    } %}
+    {% if team_social %}
+      {{ team_social }}
+    {% else %}
+      {% include "@molecules/social-menu/social-menu.twig" with {
+        "wrapperClassListSocial": "member-social",
+        "wrapperClassItemSocial": "member-social__item",
+        "itemClassesSocial": ["member-social__link"],
+        socialmenus: SocialLinks
+      } %}
+    {% endif %}
   </div>
 </div>
+
