@@ -1,0 +1,27 @@
+<div class="member">
+  <div class="member-header">
+    <div class="member-item__image">
+      {% include "@atoms/image/image.twig" with {
+        "blogimgSrc": blogimgSrc
+      } %}
+    </div>
+    <div class="member-item__name">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": Name
+      } %}
+    </div>
+  </div>
+  <div class="member-footer">
+    <div class="member-item__designation">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": Designation
+      } %}
+    </div>
+    {% include "@molecules/social-menu/social-menu.twig" with {
+      "wrapperClassListSocial": "member-social",
+      "wrapperClassItemSocial": "member-social__item",
+      "itemClassesSocial": ["member-social__link"],
+      socialmenus: SocialLinks
+    } %}
+  </div>
+</div>

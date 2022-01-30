@@ -1,0 +1,46 @@
+uuid: ceca073f-be48-4666-ad32-c998c9eff1b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_teams.field_designation
+    - field.field.paragraph.our_teams.field_member_image
+    - field.field.paragraph.our_teams.field_member_name
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.our_teams
+  module:
+    - image
+id: paragraph.our_teams.default
+targetEntityType: paragraph
+bundle: our_teams
+mode: default
+content:
+  field_designation:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_member_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_member_name:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

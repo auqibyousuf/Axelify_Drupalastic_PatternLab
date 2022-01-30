@@ -1,0 +1,42 @@
+@import '../../config.all';
+.teams-section {
+  background: var(--c-background);
+  padding: 50px;
+}
+
+.teams-body {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.teams-section__title {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  padding-bottom: 20px;
+}
+.teams-section__subtitle {
+  font-size: 56px;
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-family: var(--f-secondary);
+}
+.teams-section__discription {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 36px;
+}
+
+.teams-container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  @include breakpoint($mobile) {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  @include breakpoint($tablet) {
+    flex-wrap: wrap;
+  }
+}

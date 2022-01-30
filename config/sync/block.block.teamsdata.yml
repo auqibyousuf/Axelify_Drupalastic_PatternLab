@@ -1,0 +1,25 @@
+uuid: da7afe81-1e08-4d6a-b92d-e1956f8c882c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:our_teams_block:c95dce74-a17f-4374-ac79-b7b65089fe1f'
+  module:
+    - block_content
+  theme:
+    - drupalastic
+id: teamsdata
+theme: drupalastic
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:c95dce74-a17f-4374-ac79-b7b65089fe1f'
+settings:
+  id: 'block_content:c95dce74-a17f-4374-ac79-b7b65089fe1f'
+  label: 'Teams Data'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

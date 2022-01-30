@@ -1,0 +1,64 @@
+{
+  "title": "scriptorem",
+  "subtitle": "Sit alii tantas",
+  "discription": "Vix habeo scaevola percipitur ne, qui noster abhorreant ne, mea in dicant eligendi evertitur.",
+  "teamsList": [
+    {
+      "imgSrc": "/images/member-1.png",
+      "name": "Athar Malakooti",
+      "designation": "Manager",
+      "SocialMember": [
+        {
+          "linkText": "Facebook",
+          "linkUrl": "https://www.facebook.com"
+        },
+        {
+          "linkText": "Twitter",
+          "linkUrl": "www.twitter.com"
+        },
+        {
+          "linkText": "Instagram",
+          "linkUrl": "www.instagram.com"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/images/member-2.png",
+      "name": "Benito Noboa",
+      "designation": "Designer",
+      "SocialMember": [
+        {
+          "linkText": "Facebook",
+          "linkUrl": "https://www.facebook.com"
+        },
+        {
+          "linkText": "Twitter",
+          "linkUrl": "www.twitter.com"
+        },
+        {
+          "linkText": "Instagram",
+          "linkUrl": "www.instagram.com"
+        }
+      ]
+    },
+    {
+      "imgSrc": "/images/member-3.png",
+      "name": "Meng Ru",
+      "designation": "Developer",
+      "SocialMember": [
+        {
+          "linkText": "Facebook",
+          "linkUrl": "https://www.facebook.com"
+        },
+        {
+          "linkText": "Twitter",
+          "linkUrl": "www.twitter.com"
+        },
+        {
+          "linkText": "Instagram",
+          "linkUrl": "www.instagram.com"
+        }
+      ]
+    }
+  ]
+}

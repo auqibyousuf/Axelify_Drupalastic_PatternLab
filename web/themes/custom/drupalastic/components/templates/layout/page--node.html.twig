@@ -71,7 +71,7 @@
         "search": page.sidebar.webform,
         "drupal_sidebar_categories": page.sidebar.categories
       } %}
-      {{ page.content|without("share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2") }}
+      {{ page.content|without("share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2", "gmap_2", "webform_3", "info", "share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2") }}
       {% include "@organisms/gmap-form/gmap-form.twig" with {
         "drupal_gmap": page.content.gmap,
         "drupal_form": page.content.webform_2

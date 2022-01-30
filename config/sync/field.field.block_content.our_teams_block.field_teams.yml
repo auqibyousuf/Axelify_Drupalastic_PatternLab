@@ -1,0 +1,29 @@
+uuid: c66a8ec3-e61d-4b08-937f-a3a12852d1be
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_teams_block
+    - field.storage.block_content.field_teams
+  module:
+    - entity_reference_revisions
+id: block_content.our_teams_block.field_teams
+field_name: field_teams
+entity_type: block_content
+bundle: our_teams_block
+label: Teams
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      our_teams:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,10 @@
+uuid: 606840e0-e764-4b4b-9c02-04851455c8e5
+langcode: en
+status: true
+dependencies: {  }
+id: our_teams
+label: 'Our Teams'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

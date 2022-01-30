@@ -1,0 +1,19 @@
+{
+  "blogimgSrc": "/images/member-1.png",
+  "Name": "Athar Malakooti",
+  "Designation": "Manager",
+  "SocialLinks": [
+    {
+      "linkText": "Facebook",
+      "linkUrl": "https://www.facebook.com"
+    },
+    {
+      "linkText": "Twitter",
+      "linkUrl": "www.twitter.com"
+    },
+    {
+      "linkText": "Instagram",
+      "linkUrl": "www.instagram.com"
+    }
+  ]
+}

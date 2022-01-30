@@ -1,0 +1,32 @@
+<div class="teams-section">
+  <div class="teams-body">
+    <div class="teams-section__title">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": title
+} %}
+    </div>
+    <div class="teams-section__subtitle">
+
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": subtitle
+} %}
+    </div>
+    <div class="teams-section__discription">
+
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": discription
+} %}
+
+    </div>
+  </div>
+  <div class="teams-container">
+    {% for team in teamsList %}
+      {% include "@molecules/team-card/team-card.twig" with {
+    "blogimgSrc": team.imgSrc,
+    "Name": team.name,
+    "Designation": team.designation,
+    "SocialLinks": team.SocialMember
+  } %}
+    {% endfor %}
+  </div>
+</div>
