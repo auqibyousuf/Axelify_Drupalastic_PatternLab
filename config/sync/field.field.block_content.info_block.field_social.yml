@@ -1,0 +1,23 @@
+uuid: 44076cbf-e696-400d-b699-9eacb75773cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.info_block
+    - field.storage.block_content.field_social
+  module:
+    - link
+id: block_content.info_block.field_social
+field_name: field_social
+entity_type: block_content
+bundle: info_block
+label: Social
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

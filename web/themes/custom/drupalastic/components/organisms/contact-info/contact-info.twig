@@ -1,0 +1,42 @@
+<div class="contact-info-container">
+  {% if page_heading %}
+    {{ page_heading }}
+  {% else %}
+  <div class="page-heading">
+    {% include "@molecules/page-heading/page-heading.twig" %}
+  </div>
+  {% endif %}
+  <div class="wrapper">
+    {% if contact_gmap %}
+      {{ contact_gmap }}
+    {% else %}
+      {% include "@atoms/iframe/iframe.twig" with {
+        "class": "gmap-contact"
+      } %}
+    {% endif %}
+    <div class="message-section">
+      {% if contact_form %}
+        {{ contact_form }}
+      {% else %}
+        <div class="map-with-form">
+          {% include "@molecules/message/message.twig" %}
+        </div>
+      {% endif %}
+      <div class="contact-info-wrapper">
+        {% if contact_info %}
+          {{ contact_info }}
+        {% else %}
+          {% include "@molecules/info/info.twig" %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="subscribe">
+  {% if drupal_subscribe %}
+    {{ drupal_subscribe }}
+  {% else %}
+    {% include "@molecules/subscribe/subscribe.twig" %}
+  {% endif %}
+</div>
+

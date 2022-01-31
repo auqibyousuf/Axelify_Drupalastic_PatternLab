@@ -61,6 +61,17 @@ gmap:
       dist/components/atoms/iframe/iframe.css: {}
       dist/components/organisms/gmap-form/gmap-form.css: {}
 
+contact:
+  css:
+    theme:
+      dist/components/molecules/message/message.css: {}
+      dist/components/molecules/social-menu/social-menu.css: {}
+      dist/components/molecules/contact/contact.css: {}
+      dist/components/molecules/info/info.css: {}
+      dist/components/organisms/contact-info/contact-info.css: {}
+      dist/components/molecules/page-heading/page-heading.css: {}
+
+
 
 
 

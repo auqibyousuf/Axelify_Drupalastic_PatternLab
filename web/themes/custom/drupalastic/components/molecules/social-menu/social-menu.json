@@ -1,0 +1,19 @@
+{
+  "wrapperClassListSocial": "info-social-container",
+  "wrapperClassItemSocial": "info-social__list-item",
+  "extra_classes": ["info-social__item-link"],
+  "socialmenus": [
+    {
+      "linkUrl": "https://www.facebook.com",
+      "linkText": "Facebook"
+    },
+    {
+      "linkUrl": "https://www.instagram.com",
+      "linkText": "Instagram"
+    },
+    {
+      "linkUrl": "https://www.twitter.com",
+      "linkText": "Twitter"
+    }
+  ]
+}

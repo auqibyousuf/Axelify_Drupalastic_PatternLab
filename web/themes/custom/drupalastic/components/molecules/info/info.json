@@ -1,0 +1,33 @@
+{
+  "titleInfo": "Info",
+  "extra_classes": [],
+  "Location": {
+    "blogimgSrc": "/images/location.png",
+    "text": "123 Dicunt Ancillae, Mea Homero Persequeris USA"
+  },
+  "Phone": {
+    "blogimgSrc": "/images/phone.png",
+    "text": "123-4567890123"
+  },
+  "Mail": {
+    "blogimgSrc": "/images/mail.png",
+    "text": "info@gmail.com"
+  },
+  "wrapperClassListSocial": [],
+  "wrapperClassItemSocial": [],
+  "wrapperClassesLinkSocial": [],
+  "socialmenus": [
+    {
+      "linkUrl": "https://www.facebook.com",
+      "linkText": "Facebook"
+    },
+    {
+      "linkUrl": "https://www.instagram.com",
+      "linkText": "Instagram"
+    },
+    {
+      "linkUrl": "https://www.twitter.com",
+      "linkText": "Twitter"
+    }
+  ]
+}

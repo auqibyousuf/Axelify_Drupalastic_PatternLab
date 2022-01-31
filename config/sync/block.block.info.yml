@@ -1,0 +1,25 @@
+uuid: ead50b5a-fe30-4d3b-97c2-2c7dae3b3fac
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:info_block:bba23d74-9c52-43e3-ac50-f63421450875'
+  module:
+    - block_content
+  theme:
+    - drupalastic
+id: info
+theme: drupalastic
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:bba23d74-9c52-43e3-ac50-f63421450875'
+settings:
+  id: 'block_content:bba23d74-9c52-43e3-ac50-f63421450875'
+  label: Info
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,20 @@
+.page-heading-wrapper {
+  text-align: center;
+  background: var(--c-primary);
+  height: 270px;
+}
+.page-heading {
+  p {
+    padding-top: 30px;
+    font-size: 72px;
+    font-family: var(--f-secondary);
+    color: var(--c-white);
+  }
+}
+.page-subheading {
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--c-white);
+  }
+}

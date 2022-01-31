@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Theme override for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ */
+#}
+{% include "@molecules/info/info.twig" with {
+  "titleInfo": label,
+  "Location": {
+    "blogimgSrc": content.field_location_image.0['#markup'],
+    "text": content.field_location.0['#context'].value
+  },
+  "Phone": {
+    "blogimgSrc": content.field_ph.0['#markup'],
+    "text": content.field_phone.0['#context'].value
+  },
+  "Mail": {
+    "blogimgSrc": content.field_email_image.0['#markup'],
+    "text": content.field_email.0['#context'].value
+  },
+  "d_s": content.field_social
+} %}

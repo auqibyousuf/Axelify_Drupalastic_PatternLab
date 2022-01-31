@@ -1,0 +1,27 @@
+@import '../../config.all';
+.location-section,
+.phone-section,
+.mail-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+  width: 300px;
+  @include breakpoint($tablet) {
+    margin-bottom: 60px;
+  }
+}
+.info-img {
+  margin-right: 22px;
+}
+
+.info-title {
+  font-size: 56px;
+  line-height: 64px;
+  margin-bottom: 40px;
+}
+
+.location-section {
+  p {
+    color: var(--c-black-50);
+  }
+}
