@@ -1,8 +1,10 @@
 <div class="contact-info-container">
-  {% if heading %}
-    {{ heading }}
+  {% if page_heading %}
+    {{ page_heading }}
   {% else %}
+  <div class="page-heading">
     {% include "@molecules/page-heading/page-heading.twig" %}
+  </div>
   {% endif %}
   <div class="wrapper">
     {% if contact_gmap %}

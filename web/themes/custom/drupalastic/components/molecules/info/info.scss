@@ -1,3 +1,4 @@
+@import '../../config.all';
 .location-section,
 .phone-section,
 .mail-section {
@@ -5,6 +6,9 @@
   align-items: center;
   margin-bottom: 38px;
   width: 300px;
+  @include breakpoint($tablet) {
+    margin-bottom: 60px;
+  }
 }
 .info-img {
   margin-right: 22px;

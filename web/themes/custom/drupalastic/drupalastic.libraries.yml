@@ -68,6 +68,8 @@ contact:
       dist/components/molecules/contact/contact.css: {}
       dist/components/molecules/info/info.css: {}
       dist/components/organisms/contact-info/contact-info.css: {}
+      dist/components/molecules/page-heading/page-heading.css: {}
+
 
 
 

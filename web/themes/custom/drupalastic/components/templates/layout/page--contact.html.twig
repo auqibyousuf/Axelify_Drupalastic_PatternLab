@@ -64,15 +64,15 @@
 
     <div class="layout-content">
     {% include "@organisms/contact-info/contact-info.twig" with {
+      "page_heading": page.content.pageheading,
       "contact_gmap": page.contact.gmap_2,
       "contact_form": page.content.webform_3,
       "contact_info": page.content.info,
       "drupal_subscribe": page.content.subscribedata,
     } %}
-    {{ page.content|without("gmap_2", "webform_3", "info", "share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2") }}
+    {{ page.content|without("gmap_2", "webform_3", "info", "share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2", "views_block__team_view_block_1", "pageheading") }}
     </div>{# /.layout-content #}
   </main>
-
   {% if page.footer %}
     <footer role="contentinfo">
       {% include "@organisms/footer/footer.twig" with {
