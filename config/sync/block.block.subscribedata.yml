@@ -11,7 +11,7 @@ dependencies:
 id: subscribedata
 theme: drupalastic
 region: content
-weight: 0
+weight: -8
 provider: null
 plugin: 'block_content:85f1de99-ec02-49fe-b136-248fd9c819be'
 settings:

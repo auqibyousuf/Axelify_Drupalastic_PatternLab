@@ -1,0 +1,29 @@
+uuid: 9e337f58-6419-4fd2-a3ad-57fc3efeeb7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.gmap
+    - field.field.block_content.gmap.field_gmap
+id: block_content.gmap.default
+targetEntityType: block_content
+bundle: gmap
+mode: default
+content:
+  field_gmap:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -20,6 +20,7 @@ libraries:
   - drupalastic/nav-menu
   - drupalastic/footer
   - drupalastic/blog-listing
+  - drupalastic/gmap
 
 components:
   namespaces:

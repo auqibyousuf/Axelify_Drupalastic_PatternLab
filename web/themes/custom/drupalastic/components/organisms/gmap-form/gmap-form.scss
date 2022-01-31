@@ -1,0 +1,29 @@
+@import '../../config.all';
+.gmap-contact-wrapper {
+  background: var(--c-primary);
+  // height: 650px;
+  padding: 50px 0px;
+  @include breakpoint($mobile) {
+    height: 850px;
+    padding: 20px;
+  }
+  @include breakpoint($tablet) {
+    height: 1024px;
+  }
+}
+.gmap-contact-section {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  // height: 650px;
+  align-content: center;
+  justify-content: space-evenly;
+  @include breakpoint($tablet) {
+    flex-direction: column;
+    height: 800px;
+  }
+  @include breakpoint($mobile) {
+    flex-direction: column;
+  }
+}

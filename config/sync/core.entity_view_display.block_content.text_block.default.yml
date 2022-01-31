@@ -1,0 +1,30 @@
+uuid: eb13c467-cb05-40d2-9b85-4d2326f51615
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_block
+    - field.field.block_content.text_block.field_heading
+    - field.field.block_content.text_block.field_sub_heading
+id: block_content.text_block.default
+targetEntityType: block_content
+bundle: text_block
+mode: default
+content:
+  field_heading:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sub_heading:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

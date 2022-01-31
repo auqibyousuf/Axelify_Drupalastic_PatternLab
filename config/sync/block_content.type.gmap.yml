@@ -1,0 +1,8 @@
+uuid: 3ee2fa21-27d4-4b70-8adb-644958b5245a
+langcode: en
+status: true
+dependencies: {  }
+id: gmap
+label: Gmap
+revision: 0
+description: 'For Gmap'

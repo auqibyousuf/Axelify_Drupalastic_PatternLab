@@ -86,14 +86,3 @@
   "drupal_share": content.field_share,
   "shareText": content.field_share['#title'],
 } %}
-{# {{ kpr(content) }} #}
-{# {{ content.field_share }} #}
-{# {% set share = [] %}
-{% for item in content.field_share %}
-  {% set share = share|merge([{linkText: item['#title'], linkUrl: item['#url'].uri}]) %}
-{% endfor %}
-{% include "@atoms/share/share.twig" with {
-  blogShare: share
-} %}
-{{ share }} #}
-{# {{ content.field_share }} #}

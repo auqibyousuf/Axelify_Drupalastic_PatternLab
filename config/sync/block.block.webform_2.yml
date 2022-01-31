@@ -1,0 +1,25 @@
+uuid: 5547247b-67bc-4d54-ad2d-6bb067f5dae6
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.gmap
+  module:
+    - webform
+  theme:
+    - drupalastic
+id: webform_2
+theme: drupalastic
+region: content
+weight: -10
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: gmap
+  default_data: ''
+  redirect: false
+visibility: {  }
