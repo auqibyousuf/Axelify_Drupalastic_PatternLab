@@ -6,10 +6,12 @@ dependencies:
     - field.field.paragraph.our_teams.field_designation
     - field.field.paragraph.our_teams.field_member_image
     - field.field.paragraph.our_teams.field_member_name
+    - field.field.paragraph.our_teams.field_social
     - image.style.thumbnail
     - paragraphs.paragraphs_type.our_teams
   module:
     - image
+    - link
 id: paragraph.our_teams.default
 targetEntityType: paragraph
 bundle: our_teams
@@ -40,6 +42,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_social:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
     region: content
 hidden:
   created: true

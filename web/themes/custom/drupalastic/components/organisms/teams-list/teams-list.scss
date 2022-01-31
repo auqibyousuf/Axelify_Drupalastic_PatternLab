@@ -22,6 +22,9 @@
     margin-bottom: 30px;
     line-height: 24px;
     font-family: var(--f-secondary);
+    @include breakpoint($mobile) {
+      font-size: 40px;
+    }
   }
 }
 .teams-section__discription {

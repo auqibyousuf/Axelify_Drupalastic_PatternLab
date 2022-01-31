@@ -1,0 +1,25 @@
+uuid: 838c0239-cfa5-488f-8558-345a00f3000b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:top_header_text:874269f6-eaa3-483b-8aa6-8d5e1b351ca3'
+  module:
+    - block_content
+  theme:
+    - drupalastic
+id: pageheading
+theme: drupalastic
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:874269f6-eaa3-483b-8aa6-8d5e1b351ca3'
+settings:
+  id: 'block_content:874269f6-eaa3-483b-8aa6-8d5e1b351ca3'
+  label: Contact
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

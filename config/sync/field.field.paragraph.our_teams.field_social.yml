@@ -1,16 +1,16 @@
-uuid: 6c642ad0-0525-4a16-94ab-3bf7f1bcf3dd
+uuid: 9bc054d6-e8e7-4414-9ee6-1e2d160511b0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_social_links
-    - paragraphs.paragraphs_type.menu
+    - field.storage.paragraph.field_social
+    - paragraphs.paragraphs_type.our_teams
   module:
     - link
-id: paragraph.menu.field_social_links
-field_name: field_social_links
+id: paragraph.our_teams.field_social
+field_name: field_social
 entity_type: paragraph
-bundle: menu
+bundle: our_teams
 label: Social
 description: ''
 required: false

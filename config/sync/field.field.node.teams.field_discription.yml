@@ -1,0 +1,19 @@
+uuid: 519ba6e0-946d-47f6-b6f9-c2b24034dc65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_discription
+    - node.type.teams
+id: node.teams.field_discription
+field_name: field_discription
+entity_type: node
+bundle: teams
+label: Discription
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

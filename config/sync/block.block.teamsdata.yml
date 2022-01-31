@@ -1,6 +1,6 @@
 uuid: da7afe81-1e08-4d6a-b92d-e1956f8c882c
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:our_teams_block:c95dce74-a17f-4374-ac79-b7b65089fe1f'

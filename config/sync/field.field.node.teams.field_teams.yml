@@ -1,17 +1,18 @@
-uuid: 568749ac-b7e2-48d2-baf0-306163192952
+uuid: 831b4625-9e6e-4249-8bef-0ff1bf6fea96
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.our_teams_block
-    - field.storage.block_content.field_menu
+    - field.storage.node.field_teams
+    - node.type.teams
+    - paragraphs.paragraphs_type.our_teams
   module:
     - entity_reference_revisions
-id: block_content.our_teams_block.field_menu
-field_name: field_menu
-entity_type: block_content
-bundle: our_teams_block
-label: Menu
+id: node.teams.field_teams
+field_name: field_teams
+entity_type: node
+bundle: teams
+label: Teams
 description: ''
 required: false
 translatable: false
@@ -21,12 +22,13 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     negate: 0
-    target_bundles: {  }
+    target_bundles:
+      our_teams: our_teams
     target_bundles_drag_drop:
       menu:
         enabled: true
         weight: 3
       our_teams:
+        enabled: true
         weight: 4
-        enabled: false
 field_type: entity_reference_revisions

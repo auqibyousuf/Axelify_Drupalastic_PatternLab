@@ -1,9 +1,13 @@
 <div class="teams-section">
+{% if teams_data %}
+  {{ teams_data }}
+{% else %}
   <div class="teams-body">
     <div class="teams-section__title">
       {% include "@atoms/text/paragraph/paragraph.twig" with {
         "text": title
       } %}
+
     </div>
     <div class="teams-section__subtitle">
       {% include "@atoms/text/paragraph/paragraph.twig" with {
@@ -14,10 +18,8 @@
       {% include "@atoms/text/paragraph/paragraph.twig" with {
         "text": discription
       } %}
-
     </div>
   </div>
-
   <div class="teams-container">
     {% if teams %}
       {{ teams }}
@@ -32,5 +34,5 @@
     {% endfor %}
     {% endif %}
   </div>
-
+{% endif %}
 </div>
