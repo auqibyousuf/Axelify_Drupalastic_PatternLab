@@ -22,6 +22,7 @@ libraries:
   - drupalastic/blog-listing
   - drupalastic/gmap
   - drupalastic/contact
+  - drupalastic/teams
 
 components:
   namespaces:

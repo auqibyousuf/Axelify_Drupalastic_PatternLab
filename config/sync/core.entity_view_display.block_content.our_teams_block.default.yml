@@ -1,0 +1,34 @@
+uuid: 79649b14-71f1-4078-a063-52f1a7967d55
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_teams_block
+    - field.field.block_content.our_teams_block.field_menu
+    - field.field.block_content.our_teams_block.field_teams
+  module:
+    - entity_reference_revisions
+id: block_content.our_teams_block.default
+targetEntityType: block_content
+bundle: our_teams_block
+mode: default
+content:
+  field_menu:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_teams:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

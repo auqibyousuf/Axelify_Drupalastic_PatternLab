@@ -1,0 +1,53 @@
+uuid: 7b8d66f9-8e3b-4fcf-b9fd-cec9937e7a25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.teams.field_discription
+    - field.field.node.teams.field_subtitle
+    - field.field.node.teams.field_teams
+    - field.field.node.teams.field_title
+    - node.type.teams
+  module:
+    - entity_reference_revisions
+    - user
+id: node.teams.default
+targetEntityType: node
+bundle: teams
+mode: default
+content:
+  field_discription:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_subtitle:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_teams:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  links: true

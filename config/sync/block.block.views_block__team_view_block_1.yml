@@ -1,0 +1,24 @@
+uuid: c9f5b25e-7196-4e82-8aef-70febd7cc742
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.team_view
+  module:
+    - views
+  theme:
+    - drupalastic
+id: views_block__team_view_block_1
+theme: drupalastic
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:team_view-block_1'
+settings:
+  id: 'views_block:team_view-block_1'
+  label: Scriptorem
+  provider: views
+  label_display: '0'
+  views_label: Scriptorem
+  items_per_page: none
+visibility: {  }

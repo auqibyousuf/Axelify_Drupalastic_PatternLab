@@ -1,0 +1,21 @@
+uuid: b2696ae4-0bdc-4aa6-bc0e-01cd0e307fa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_designation
+    - paragraphs.paragraphs_type.our_teams
+id: paragraph.our_teams.field_designation
+field_name: field_designation
+entity_type: paragraph
+bundle: our_teams
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

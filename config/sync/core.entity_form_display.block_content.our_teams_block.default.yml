@@ -1,0 +1,48 @@
+uuid: e6fc8549-219f-40f9-9941-7753e15350f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_teams_block
+    - field.field.block_content.our_teams_block.field_menu
+    - field.field.block_content.our_teams_block.field_teams
+  module:
+    - paragraphs
+id: block_content.our_teams_block.default
+targetEntityType: block_content
+bundle: our_teams_block
+mode: default
+content:
+  field_menu:
+    type: entity_reference_paragraphs
+    weight: 28
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_teams:
+    type: entity_reference_paragraphs
+    weight: 27
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

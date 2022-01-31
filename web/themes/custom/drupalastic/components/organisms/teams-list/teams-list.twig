@@ -1,0 +1,38 @@
+<div class="teams-section">
+{% if teams_data %}
+  {{ teams_data }}
+{% else %}
+  <div class="teams-body">
+    <div class="teams-section__title">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": title
+      } %}
+
+    </div>
+    <div class="teams-section__subtitle">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": subtitle
+      } %}
+    </div>
+    <div class="teams-section__discription">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": discription
+      } %}
+    </div>
+  </div>
+  <div class="teams-container">
+    {% if teams %}
+      {{ teams }}
+    {% else %}
+      {% for team in teamsList %}
+        {% include "@molecules/team-card/team-card.twig" with {
+          "blogimgSrc": team.imgSrc,
+          "Name": team.name,
+          "Designation": team.designation,
+          "SocialLinks": team.SocialMember
+        } %}
+      {% endfor %}
+    {% endif %}
+  </div>
+{% endif %}
+</div>

@@ -72,6 +72,12 @@ contact:
       dist/components/molecules/page-heading/page-heading.css: {}
 
 
+teams:
+  css:
+    theme:
+      dist/components/molecules/team-card/team-card.css: {}
+      dist/components/organisms/teams-list/teams-list.css: {}
+
 
 
 
