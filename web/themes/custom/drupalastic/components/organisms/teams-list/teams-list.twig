@@ -24,14 +24,14 @@
     {% if teams %}
       {{ teams }}
     {% else %}
-    {% for team in teamsList %}
-      {% include "@molecules/team-card/team-card.twig" with {
-        "blogimgSrc": team.imgSrc,
-        "Name": team.name,
-        "Designation": team.designation,
-        "SocialLinks": team.SocialMember
-      } %}
-    {% endfor %}
+      {% for team in teamsList %}
+        {% include "@molecules/team-card/team-card.twig" with {
+          "blogimgSrc": team.imgSrc,
+          "Name": team.name,
+          "Designation": team.designation,
+          "SocialLinks": team.SocialMember
+        } %}
+      {% endfor %}
     {% endif %}
   </div>
 {% endif %}
