@@ -1,20 +1,20 @@
-uuid: 38dc8012-8676-4a20-9399-859d3370380b
+uuid: 70324138-c78c-4d67-a4f6-f8397bc0b242
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_social_image
-    - paragraphs.paragraphs_type.menu
+    - field.storage.node.field_image
+    - node.type.testimonials
   module:
     - image
-id: paragraph.menu.field_social_image
-field_name: field_social_image
-entity_type: paragraph
-bundle: menu
-label: 'Social image'
+id: node.testimonials.field_image
+field_name: field_image
+entity_type: node
+bundle: testimonials
+label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

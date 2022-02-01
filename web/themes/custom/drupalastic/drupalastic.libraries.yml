@@ -79,6 +79,24 @@ teams:
       dist/components/organisms/teams-list/teams-list.css: {}
 
 
+testimonials:
+  css:
+    theme:
+      dist/components/molecules/testimonials/testimonials.css: {}
+      dist/components/organisms/testimonials-slider/testimonials-slider.css: {}
+  js:
+    dist/components/organisms/testimonials-slider/testimonials-slider.js: {}
+  dependencies:
+    - drupalastic/slick-slider
 
+
+slick-slider:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css: { type: external }
+  js:
+    https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js: { type: external }
+    # https://code.jquery.com/jquery-1.11.0.min.js: { type: external }
+    # https://code.jquery.com/jquery-migrate-1.2.1.min.js: { type: external }
 
 

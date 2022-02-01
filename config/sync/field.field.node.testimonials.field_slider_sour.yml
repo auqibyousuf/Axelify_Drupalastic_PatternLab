@@ -1,0 +1,19 @@
+uuid: 47af505d-0621-4e8f-ab57-e57f97d10bdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slider_sour
+    - node.type.testimonials
+id: node.testimonials.field_slider_sour
+field_name: field_slider_sour
+entity_type: node
+bundle: testimonials
+label: 'slider source'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
