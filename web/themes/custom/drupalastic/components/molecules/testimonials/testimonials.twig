@@ -1,0 +1,29 @@
+<div class="testimonials">
+  <div class="testimonials-section">
+      <div class="testimonials-section__image">
+        {% include "@atoms/image/image.twig" with {
+          "blogimgSrc": imgSrc
+        } %}
+      </div>
+      <div class="testimonials-section__info ">
+        <div class="testimonials-section__title">
+          {% include "@atoms/text/paragraph/paragraph.twig" with {
+            "text": title
+          } %}
+        </div>
+        <div class="testimonials-section__desc">
+          {% include "@atoms/text/paragraph/paragraph.twig" with {
+            "text": discription
+          } %}
+        </div>
+        {% include "@atoms/text/paragraph/paragraph.twig" with {
+          "text": authorName
+        } %}
+        <div class="testimonials-section__source">
+          {% include "@atoms/text/paragraph/paragraph.twig" with {
+            "text": source
+          } %}
+        </div>
+      </div>
+  </div>
+</div>

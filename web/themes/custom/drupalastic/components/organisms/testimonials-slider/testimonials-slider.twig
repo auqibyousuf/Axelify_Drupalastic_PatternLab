@@ -1,0 +1,19 @@
+<div class="testimonials-container">
+  {% for slider in Testimonials_Slider %}
+    {% include "@molecules/testimonials/testimonials.twig" with {
+    "imgSrc": slider.imgSrc,
+    "title": slider.title,
+    "discription": slider.discription,
+    "authorName": slider.authorName,
+    "source": slider.source
+    } %}
+  {% endfor %}
+</div>
+<div class="arrows">
+  {% include "@atoms/button/button.twig" with {
+  "variant": "next"
+  } %}
+  {% include "@atoms/button/button.twig" with {
+  "variant": "back"
+  } %}
+</div>

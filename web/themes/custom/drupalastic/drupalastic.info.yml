@@ -23,6 +23,8 @@ libraries:
   - drupalastic/gmap
   - drupalastic/contact
   - drupalastic/teams
+  - drupalastic/testimonials
+  - drupalastic/slick-slider
 
 components:
   namespaces:

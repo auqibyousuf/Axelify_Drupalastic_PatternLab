@@ -1,0 +1,61 @@
+uuid: f41f410d-5110-4c9d-a10f-94844e31f56c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.testimonials.field_header
+    - field.field.node.testimonials.field_image
+    - field.field.node.testimonials.field_slider_author_name
+    - field.field.node.testimonials.field_slider_desc
+    - field.field.node.testimonials.field_slider_sour
+    - node.type.testimonials
+  module:
+    - image
+    - user
+id: node.testimonials.default
+targetEntityType: node
+bundle: testimonials
+mode: default
+content:
+  field_header:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_slider_author_name:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_slider_desc:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_slider_sour:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  links: true

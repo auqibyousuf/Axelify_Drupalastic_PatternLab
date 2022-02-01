@@ -1,0 +1,32 @@
+{
+  "Testimonials_Slider": [
+    {
+      "imgSrc": "/images/author-testimonials.png",
+      "title": "Dicta omnes",
+      "discription": "Mea iisque mentitum signiferumque te, sed commune erroribus scripserit ut, vocibus facilis sea an. Fabulas invenire partiendo eu ius. Sale veritus cu est, homero perpetua.",
+      "authorName": "Emlen Beaver",
+      "source": "Google"
+    },
+    {
+      "imgSrc": "/images/member-2.png",
+      "title": "Dicta omnes",
+      "discription": "Mea iisque mentitum signiferumque te, sed commune erroribus scripserit ut, vocibus facilis sea an. Fabulas invenire partiendo eu ius. Sale veritus cu est, homero perpetua.",
+      "authorName": "Emlen Beaver",
+      "source": "Google"
+    },
+    {
+      "imgSrc": "/images/member-3.png",
+      "title": "Dicta omnes",
+      "discription": "Mea iisque mentitum signiferumque te, sed commune erroribus scripserit ut, vocibus facilis sea an. Fabulas invenire partiendo eu ius. Sale veritus cu est, homero perpetua.",
+      "authorName": "Emlen Beaver",
+      "source": "Google"
+    },
+    {
+      "imgSrc": "/images/member-1.png",
+      "title": "Dicta omnes",
+      "discription": "Mea iisque mentitum signiferumque te, sed commune erroribus scripserit ut, vocibus facilis sea an. Fabulas invenire partiendo eu ius. Sale veritus cu est, homero perpetua.",
+      "authorName": "Emlen Beaver",
+      "source": "Google"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+uuid: d3c20fc1-4ff4-4ed6-ade8-7cdd1dd7853e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slider_author_name
+    - node.type.testimonials
+id: node.testimonials.field_slider_author_name
+field_name: field_slider_author_name
+entity_type: node
+bundle: testimonials
+label: 'slider author name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
