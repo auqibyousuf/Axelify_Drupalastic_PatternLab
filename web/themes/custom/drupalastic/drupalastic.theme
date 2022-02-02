@@ -6,7 +6,7 @@
  */
 
 function drupalastic_theme_suggestions_page_alter(array &$suggestions, array $variables) {
-  if ( $node= \Drupal::request()->attributes->get('node')) {
+  if ($node= \Drupal::request()->attributes->get('node')) {
     if (is_object($node)) {
       $suggestions[]= 'page__' . $node->getType();
     }
