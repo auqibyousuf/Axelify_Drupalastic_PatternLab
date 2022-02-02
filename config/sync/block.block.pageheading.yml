@@ -6,12 +6,13 @@ dependencies:
     - 'block_content:top_header_text:874269f6-eaa3-483b-8aa6-8d5e1b351ca3'
   module:
     - block_content
+    - system
   theme:
     - drupalastic
 id: pageheading
 theme: drupalastic
 region: content
-weight: 0
+weight: -12
 provider: null
 plugin: 'block_content:874269f6-eaa3-483b-8aa6-8d5e1b351ca3'
 settings:
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false

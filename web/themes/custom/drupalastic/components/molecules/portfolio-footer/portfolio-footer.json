@@ -1,0 +1,31 @@
+{
+  "bodyText": "<h2>Mazim integre</h2><h3>Pro te viderer ancillae scribentur. Inciderint temporibus id mel. Dolorem maiestatis omittantur id eos. His cu tamquam dolorum veritus, porro assum docendi te mei.</h3><p>Eam partem audiam impedit in. Ut oblique propriae singulis nec. Noluisse similique te his. Sed consul vocent ex, has vero mandamus eu, ei eam alia recusabo. Id harum vocibus dolores vel, sea dissentiunt signiferumque no.</p><h4>Dicat euismod invidunt</h4><p>Pro eu apeirian suavitate dissentiet, qui dicunt ancillae id, ne mea homero persequeris. Ius delectus instructior eu, eu eum mentitum percipit forensibus. Vide legimus consectetuer sea an.</p>",
+  "labelDate": "Date",
+  "labelPercipit": "Percipit",
+  "labelImpetus": "Impetus",
+  "labelOcurreret": "Ocurreret",
+  "textDate": "July 2019",
+  "textPercipit": "<p>Eloquentiam</p><p>Viderer Detracto</p>",
+  "textImpetus": "Deserunt",
+  "textOcurreret": "<p>Everti ancillae</p><p>Intellegat</p>",
+  "SocialData": {
+    "wrapperClassSocial": "footer-social",
+    "wrapperClassListSocial": "footer-social__list",
+    "wrapperClassItemSocial": "footer-social__list-item",
+    "itemClassesSocial": ["footer-social__link"],
+    "menus": [
+      {
+        "linkUrl": "https://www.facebook.com",
+        "linkText": "Facebook"
+      },
+      {
+        "linkUrl": "https://www.instagram.com",
+        "linkText": "Instagram"
+      },
+      {
+        "linkUrl": "https://www.twitter.com",
+        "linkText": "Twitter"
+      }
+    ]
+  }
+}

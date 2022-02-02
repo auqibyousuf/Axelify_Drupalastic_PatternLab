@@ -11,7 +11,7 @@ dependencies:
 id: authorblock
 theme: drupalastic
 region: content
-weight: -9
+weight: -14
 provider: null
 plugin: 'block_content:d9123f53-f6c0-4c41-8a31-bd87f681541b'
 settings:

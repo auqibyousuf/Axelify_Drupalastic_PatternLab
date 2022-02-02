@@ -1,0 +1,17 @@
+{% if portfolio_header %}
+  {{ portfolio_header }}
+{% else %}
+  {% include "@molecules/portfolio-header/portfolio-header.twig" %}
+{% endif %}
+<div class="portfolio-section">
+  {% if portfolio_slider %}
+    {{ portfolio_slider }}
+  {% else %}
+    {% include "@molecules/portfolio-images-slider/portfolio-images-slider.twig" %}
+  {% endif %}
+</div>
+{% if portfolio_footer %}
+  {{ portfolio_footer }}
+{% else %}
+  {% include "@molecules/portfolio-footer/portfolio-footer.twig" %}
+{% endif %}

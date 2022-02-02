@@ -71,17 +71,10 @@
         "search": page.sidebar.webform,
         "drupal_sidebar_categories": page.sidebar.categories
       } %}
-      {% include "@organisms/teams-list/teams-list.twig" with {
-        "teams_data": page.content.views_block__team_view_block_1
-      } %}
-      {% include "@organisms/gmap-form/gmap-form.twig" with {
-        "drupal_gmap": page.content.gmap,
-        "drupal_form": page.content.webform_2
-      } %}
       {{ page.content|without("share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2", "gmap_2", "webform_3", "info", "share_on", "system_main", 'authorblock', "subscribedata", "gmap", "webform_2", "views_block__team_view_block_1") }}
     </div>{# /.layout-content #}
       {{ page.sidebar|without("categories", "webform") }}
-      {{ page.sidebar }}
+
   </main>
 
   {% if page.footer %}

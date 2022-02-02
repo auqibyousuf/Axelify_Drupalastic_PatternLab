@@ -11,7 +11,7 @@ dependencies:
 id: info
 theme: drupalastic
 region: content
-weight: 0
+weight: -10
 provider: null
 plugin: 'block_content:bba23d74-9c52-43e3-ac50-f63421450875'
 settings:

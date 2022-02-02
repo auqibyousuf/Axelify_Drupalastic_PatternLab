@@ -1,0 +1,58 @@
+uuid: ef6586af-b82e-4cab-9997-ae69cb605e48
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.portfolio_header
+    - field.field.block_content.portfolio_header.field_back_link
+    - field.field.block_content.portfolio_header.field_discription
+    - field.field.block_content.portfolio_header.field_title_portfolio
+    - field.field.block_content.portfolio_header.field_visit
+  module:
+    - link
+id: block_content.portfolio_header.default
+targetEntityType: block_content
+bundle: portfolio_header
+mode: default
+content:
+  field_back_link:
+    weight: 28
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_discription:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_title_portfolio:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_visit:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

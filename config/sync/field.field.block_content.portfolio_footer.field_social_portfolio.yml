@@ -1,0 +1,23 @@
+uuid: e11c69ac-a52f-4b36-9c3d-02a38d774ee3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.portfolio_footer
+    - field.storage.block_content.field_social_portfolio
+  module:
+    - link
+id: block_content.portfolio_footer.field_social_portfolio
+field_name: field_social_portfolio
+entity_type: block_content
+bundle: portfolio_footer
+label: Social
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
