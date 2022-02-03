@@ -1,0 +1,28 @@
+{
+  "portfolioSlider": [
+    {
+      "imgSrc": "/images/portfolio.png"
+    },
+    {
+      "imgSrc": "/images/port-2.png"
+    },
+    {
+      "imgSrc":"/images/port-3.png"
+    },
+    {
+      "imgSrc":"/images/port-4.png"
+    },
+    {
+      "imgSrc":"/images/port-5.png"
+    },
+    {
+      "imgSrc":"/images/port-6.png"
+    },
+    {
+      "imgSrc":"/images/port-7.png"
+    },
+    {
+      "imgSrc":"/images/port-8.png"
+    }
+  ]
+}

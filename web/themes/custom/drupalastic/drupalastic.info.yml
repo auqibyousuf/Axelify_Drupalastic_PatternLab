@@ -25,6 +25,7 @@ libraries:
   - drupalastic/teams
   - drupalastic/testimonials
   - drupalastic/slick-slider
+  - drupalastic/portfolio
 
 components:
   namespaces:

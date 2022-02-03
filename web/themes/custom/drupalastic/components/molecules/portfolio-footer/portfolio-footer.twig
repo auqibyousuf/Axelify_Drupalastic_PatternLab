@@ -1,0 +1,42 @@
+<div class="portfolio-footer">
+<div class="portfolio-left-section">
+  <div class="portfolio-first-section">
+    <div class="portfolio-footer__date">
+      {% include "@atoms/label/label.twig" with {
+          "labelText": labelDate
+        } %}
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+          "text": textDate
+        } %}
+    </div>
+    <div class="portfolio-footer__percipit">
+      {% include "@atoms/label/label.twig" with {
+          "labelText": labelPercipit
+        } %}
+      {{ textPercipit }}
+    </div>
+  </div>
+  <div class="portfolio-second-section">
+    <div class="portfolio-footer__impetus">
+      {% include "@atoms/label/label.twig" with {
+        "labelText": labelImpetus
+      } %}
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": textImpetus
+      } %}
+    </div>
+    <div class="portfolio-footer__ocurreret">
+      {% include "@atoms/label/label.twig" with {
+        "labelText": labelOcurreret
+      } %}
+      {{ textOcurreret }}
+    </div>
+  </div>
+</div>
+  <div class="portfolio-right-section">
+    {{ bodyText }}
+    {% block social %}
+      {% include "@molecules/footer-social-menu/footer-social-menu.twig" %}
+    {% endblock %}
+  </div>
+</div>

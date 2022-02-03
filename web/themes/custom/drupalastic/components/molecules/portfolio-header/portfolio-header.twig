@@ -1,0 +1,23 @@
+<div class="portfolio-header">
+<div class="portfolio-header-link">
+  {% include "@atoms/link/link.twig" with {
+    "linkText": linkText
+  } %}
+</div>
+  <div class="portfolio-header__title">
+  {% include "@atoms/text/paragraph/paragraph.twig" with {
+    "text": title
+  } %}
+  </div>
+  <div class="portfolio-header-with-button">
+    <div class="portfolio-header__discription">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+        "text": discription
+      } %}
+    </div>
+    {% include "@atoms/link/link.twig" with {
+      "linkText": visit,
+      "extra_classes": ["portfolio-visit-link"]
+    } %}
+  </div>
+</div>

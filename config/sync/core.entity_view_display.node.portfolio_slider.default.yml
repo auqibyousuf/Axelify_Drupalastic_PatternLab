@@ -1,0 +1,25 @@
+uuid: f68aa767-b023-4a02-b1e9-03b3897f2557
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portfolio_slider.field_portfolio_images
+    - node.type.portfolio_slider
+  module:
+    - image
+    - user
+id: node.portfolio_slider.default
+targetEntityType: node
+bundle: portfolio_slider
+mode: default
+content:
+  field_portfolio_images:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden:
+  links: true

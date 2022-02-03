@@ -1,0 +1,42 @@
+{
+  "linkText": "Back to portfolio",
+  "title": "Nam ne facer elaboraret",
+  "discription": "Quo ex ocurreret quaerendum. Mel cu ancillae similique. Mei no ubique persecuti, at sit iusto aliquam interpretaris.",
+  "visit": "Visit site",
+  "extra_classes": [],
+  "bodyText": "<h2>Mazim integre</h2><h3>Pro te viderer ancillae scribentur. Inciderint temporibus id mel. Dolorem maiestatis omittantur id eos. His cu tamquam dolorum veritus, porro assum docendi te mei.</h3><p>Eam partem audiam impedit in. Ut oblique propriae singulis nec. Noluisse similique te his. Sed consul vocent ex, has vero mandamus eu, ei eam alia recusabo. Id harum vocibus dolores vel, sea dissentiunt signiferumque no.</p><h4>Dicat euismod invidunt</h4><p>Pro eu apeirian suavitate dissentiet, qui dicunt ancillae id, ne mea homero persequeris. Ius delectus instructior eu, eu eum mentitum percipit forensibus. Vide legimus consectetuer sea an.</p>",
+  "labelDate": "Date",
+  "labelPercipit": "Percipit",
+  "labelImpetus": "Impetus",
+  "labelOcurreret": "Ocurreret",
+  "textDate": "July 2019",
+  "textPercipit": "<p>Eloquentiam</p><p>Viderer Detracto</p>",
+  "textImpetus": "Deserunt",
+  "textOcurreret": "<p>Everti ancillae</p><p>Intellegat</p>",
+  "portfolioSlider": [
+    {
+      "imgSrc": "/images/portfolio.png"
+    },
+    {
+      "imgSrc": "/images/port-2.png"
+    },
+    {
+      "imgSrc": "/images/port-3.png"
+    },
+    {
+      "imgSrc": "/images/port-4.png"
+    },
+    {
+      "imgSrc": "/images/port-5.png"
+    },
+    {
+      "imgSrc": "/images/port-6.png"
+    },
+    {
+      "imgSrc": "/images/port-7.png"
+    },
+    {
+      "imgSrc": "/images/port-8.png"
+    }
+  ]
+}

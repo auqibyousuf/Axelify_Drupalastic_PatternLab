@@ -11,7 +11,7 @@ dependencies:
 id: gmap
 theme: drupalastic
 region: content
-weight: -11
+weight: -16
 provider: null
 plugin: 'block_content:aa87a722-09ba-42cd-8de6-09ce8ffa5990'
 settings:

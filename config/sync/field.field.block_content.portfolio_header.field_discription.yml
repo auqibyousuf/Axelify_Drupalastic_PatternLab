@@ -1,0 +1,19 @@
+uuid: 68b1d378-760f-43bd-8db7-83ff9a04c2d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.portfolio_header
+    - field.storage.block_content.field_discription
+id: block_content.portfolio_header.field_discription
+field_name: field_discription
+entity_type: block_content
+bundle: portfolio_header
+label: Discription
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

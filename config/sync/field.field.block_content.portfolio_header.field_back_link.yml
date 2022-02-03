@@ -1,0 +1,23 @@
+uuid: fed393c7-01fa-4685-8d17-99962c3dd340
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.portfolio_header
+    - field.storage.block_content.field_back_link
+  module:
+    - link
+id: block_content.portfolio_header.field_back_link
+field_name: field_back_link
+entity_type: block_content
+bundle: portfolio_header
+label: 'back link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

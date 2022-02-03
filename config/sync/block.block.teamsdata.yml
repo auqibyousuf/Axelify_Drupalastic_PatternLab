@@ -11,7 +11,7 @@ dependencies:
 id: teamsdata
 theme: drupalastic
 region: content
-weight: 0
+weight: 2
 provider: null
 plugin: 'block_content:c95dce74-a17f-4374-ac79-b7b65089fe1f'
 settings:
