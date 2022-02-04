@@ -1,0 +1,100 @@
+uuid: 234ecaf9-c1d0-4941-ac80-e5f37394859e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.blog_
+    - field.field.node.blogs.body
+    - field.field.node.blogs.field_author_image
+    - field.field.node.blogs.field_author_name
+    - field.field.node.blogs.field_back
+    - field.field.node.blogs.field_blog_cat
+    - field.field.node.blogs.field_blog_categories
+    - field.field.node.blogs.field_blog_date
+    - field.field.node.blogs.field_blog_discription
+    - field.field.node.blogs.field_blog_image
+    - field.field.node.blogs.field_blog_main_body
+    - field.field.node.blogs.field_blog_main_image
+    - field.field.node.blogs.field_blog_main_title
+    - field.field.node.blogs.field_post_date
+    - field.field.node.blogs.field_share
+    - field.field.node.blogs.field_tags_blog
+    - node.type.blogs
+  module:
+    - image
+    - text
+    - user
+id: node.blogs.blog_
+targetEntityType: node
+bundle: blogs
+mode: blog_
+content:
+  field_author_image:
+    weight: 7
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_author_name:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_blog_cat:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_blog_main_body:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_blog_main_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_blog_main_title:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_post_date:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_back: true
+  field_blog_categories: true
+  field_blog_date: true
+  field_blog_discription: true
+  field_blog_image: true
+  field_share: true
+  field_tags_blog: true

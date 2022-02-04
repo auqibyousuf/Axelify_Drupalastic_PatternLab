@@ -41,5 +41,7 @@
   {% set tags = tags|merge([{linkText: item.content['#title'], linkUrl: item.content['#url']}]) %}
 {% endfor %}
 {% include "@molecules/taxonomy-tags/taxonomy-tags.twig" with {
-    "tags": tags
+    "tags": tags,
+    "tagsWrapper": "blog__tags-list",
+    "tagsWrapperList": "blog__tags-list-item"
 } %}

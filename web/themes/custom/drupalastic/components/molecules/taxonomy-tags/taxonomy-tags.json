@@ -1,4 +1,7 @@
 {
+  "class": "class",
+  "tagsWrapper": "blog__tags-list",
+  "tagsWrapperList": "blog__tags-list-item",
   "tags": [
     {
       "extra_classes": ["blog__tags-list-item"],

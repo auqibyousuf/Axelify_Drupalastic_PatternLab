@@ -1,0 +1,139 @@
+uuid: 2ad72c5a-9826-4da1-b8bd-25ce97ba4dd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blogs_teaser.field_blog_link
+    - field.field.node.blogs_teaser.field_blog_listing_author
+    - field.field.node.blogs_teaser.field_blog_listing_cat
+    - field.field.node.blogs_teaser.field_blog_listing_date
+    - field.field.node.blogs_teaser.field_blog_listing_desc
+    - field.field.node.blogs_teaser.field_blog_listing_image
+    - field.field.node.blogs_teaser.field_blog_listing_name
+    - field.field.node.blogs_teaser.field_blog_listing_title
+    - image.style.thumbnail
+    - node.type.blogs_teaser
+  module:
+    - datetime
+    - image
+    - link
+    - path
+id: node.blogs_teaser.default
+targetEntityType: node
+bundle: blogs_teaser
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_blog_link:
+    weight: 125
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_blog_listing_author:
+    weight: 128
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_blog_listing_cat:
+    weight: 122
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_blog_listing_date:
+    weight: 126
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_blog_listing_desc:
+    weight: 124
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_blog_listing_image:
+    weight: 121
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_blog_listing_name:
+    weight: 127
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_blog_listing_title:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

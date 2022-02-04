@@ -12,3 +12,12 @@ function drupalastic_theme_suggestions_page_alter(array &$suggestions, array $va
     }
   }
 }
+
+function drupalastic_theme_suggestions_alter(array &$suggestions, array $variables, $hook) {
+  if ($hook == 'pager') {
+    if ($node = \Drupal::routeMatch()->getParameter('node')) {
+      $content_type = $node->bundle();
+      $suggestions[] ='pager__' . $content_type;
+    }
+  }
+}

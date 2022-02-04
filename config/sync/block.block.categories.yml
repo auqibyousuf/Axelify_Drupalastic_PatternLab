@@ -11,7 +11,7 @@ dependencies:
 id: categories
 theme: drupalastic
 region: sidebar
-weight: 0
+weight: -19
 provider: null
 plugin: 'block_content:a79a78b0-3b51-4de1-ad3e-0e72329dd419'
 settings:

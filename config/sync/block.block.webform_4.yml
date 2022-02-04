@@ -1,0 +1,30 @@
+uuid: 0dda15ce-2309-43fb-8ce8-e92657f94a24
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.search
+  module:
+    - system
+    - webform
+  theme:
+    - drupalastic
+id: webform_4
+theme: drupalastic
+region: sidebar
+weight: -16
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Search
+  provider: webform
+  label_display: '0'
+  webform_id: search
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false

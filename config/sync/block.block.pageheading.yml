@@ -12,7 +12,7 @@ dependencies:
 id: pageheading
 theme: drupalastic
 region: content
-weight: -12
+weight: -16
 provider: null
 plugin: 'block_content:874269f6-eaa3-483b-8aa6-8d5e1b351ca3'
 settings:

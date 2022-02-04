@@ -1,0 +1,10 @@
+@import '../../config.all';
+.blog-listing-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  // padding: 32px;
+  @include breakpoint($mobile) {
+    padding: 15px;
+  }
+}

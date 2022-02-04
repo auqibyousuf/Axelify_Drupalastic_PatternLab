@@ -1,0 +1,37 @@
+{
+  "BlogListing": [
+    {
+      "blogImg": "/images/post-1.png",
+      "category": "Eloquentiam",
+      "title": "Ea cum vide impetus deserunt",
+      "desc": "Altera integre suavitate per an, alienum phaedrum te sea. Ex sea causae dolores, nam et doming dicunt feugait. Ea mel scripta aperiri postulant. Ut sed affert audire, no alienum quaestio mea. Vidit maiestatis his ut, principes persecuti maiestatis mei ex, mei ei tollit epicurei invenire.",
+      "linkText": "Learn More",
+      "linkUrl": "#",
+      "date": "20 July 2019",
+      "authorName": "Cayla Brister",
+      "authorImg": "/images/author-cyla.png"
+    },
+    {
+      "blogImg": "/images/post-2.png",
+      "category": "Dolorem",
+      "title": "Inciderint temporibus id mel",
+      "desc": "Ei nominavi suavitate deterruisset qui, assum ubique quodsi sea ad. At partem vocent vel, ius id viris utinam. Nam natum volutpat eu. Natum elitr vel te. Id qui purto dicit, bonorum minimum et sit. Cum ei assum tation homero, at per assum dicit verterem.",
+      "linkText": "Learn More",
+      "linkUrl": "#",
+      "date": "20 July 2019",
+      "authorName": "Cayla Brister",
+      "authorImg": "/images/author-cyla.png"
+    },
+    {
+      "blogImg": "/images/post-3.png",
+      "category": "Facilisi",
+      "title": "Lorem deterruisset ea vis",
+      "desc": "Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam ornatus nam ei. Idque maiestatis vis ut. An mel everti invenire intellegam, legendos consequuntur eu sit. Solet nostrum consectetuer sea in.",
+      "linkText": "Learn More",
+      "linkUrl": "#",
+      "date": "20 July 2019",
+      "authorName": "Cayla Brister",
+      "authorImg": "/images/author-cyla.png"
+    }
+  ]
+}

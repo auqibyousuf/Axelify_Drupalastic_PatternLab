@@ -1,0 +1,12 @@
+<nav class="pager">
+  <ul class="pager__items js-pager__items pager__list">
+    {% for page in pager %}
+      <li class="pager__item blog-pager__list-item is-active">
+        {% include "@atoms/link/link.twig" with {
+          "linkText": page.linkText,
+          "linkurl": page.linkUrl,
+        } %}
+      <li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,18 @@
+uuid: 0083381d-bd3e-4358-8ab0-f45a1159832f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:menu_link_content:8b388472-f06b-4c54-b7e4-0700d0dcfae3'
+name: 'Blogs Teaser'
+type: blogs_teaser
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,24 @@
+{
+  "pager": [
+    {
+      "linkText": "1",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "2",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "3",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "4",
+      "linkUrl": "#"
+    },
+    {
+      "linkText": "5",
+      "linkUrl": "#"
+    }
+  ]
+}

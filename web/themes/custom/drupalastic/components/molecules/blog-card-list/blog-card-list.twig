@@ -1,0 +1,15 @@
+  <div class="blog-listing-post">
+    {% for list in BlogListing %}
+      {% include "@molecules/blog-card/blog-card.twig" with {
+        "blogImg": list.blogImg,
+        "category": list.category,
+        "title": list.title,
+        "desc": list.desc,
+        "linkText": list.linkText,
+        "linkUrl": list.linkTitle,
+        "date": list.date,
+        "authorName": list.authorName,
+        "authorImg": list.authorImg
+      } %}
+    {% endfor %}
+  </div>

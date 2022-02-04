@@ -12,7 +12,7 @@ dependencies:
 id: portfoliofooter
 theme: drupalastic
 region: content
-weight: -6
+weight: -10
 provider: null
 plugin: 'block_content:19f28c3f-af36-4c31-9e2c-398b98388fde'
 settings:

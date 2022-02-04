@@ -1,0 +1,30 @@
+uuid: 9923ab28-7934-4a53-8dfe-37231c036c98
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:categories:a79a78b0-3b51-4de1-ad3e-0e72329dd419'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupalastic
+id: categories_2
+theme: drupalastic
+region: sidebar
+weight: -18
+provider: null
+plugin: 'block_content:a79a78b0-3b51-4de1-ad3e-0e72329dd419'
+settings:
+  id: 'block_content:a79a78b0-3b51-4de1-ad3e-0e72329dd419'
+  label: Categories
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false

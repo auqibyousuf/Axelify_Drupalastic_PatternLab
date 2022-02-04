@@ -1,0 +1,44 @@
+<div class="blog-listing-card">
+  {% include "@atoms/image/image.twig" with {
+  "blogimgSrc": blogImg,
+  "class": "blog-listing__image"
+} %}
+  <div class="blog-listing__header">
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": category,
+  "extra_classes": ["blog-listing__category"]
+} %}
+    {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": title,
+  "extra_classes": ["blog-listing__title"]
+} %}
+    <div class="blog-listing__description">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": desc,
+  "extra_classes": ["blog-listing__description"]
+} %}
+    </div>
+  </div>
+  <div class="blog-listing__footer">
+    <div class="blog-listing__link">
+      {% include "@atoms/link/link.twig" with {
+  "linkText": linkText,
+  "linkUrl": linkUrl
+} %}
+    </div>
+    <div class="blog-listing__author-section">
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": date,
+  "extra_classes": ["blog-listing__date"]
+} %}
+      {% include "@atoms/text/paragraph/paragraph.twig" with {
+  "text": authorName,
+  "extra_classes": ["blog-listing__author-name"]
+} %}
+      {% include "@atoms/image/image.twig" with {
+  "blogimgSrc": authorImg,
+  "class": "blog-listing__author-image"
+} %}
+    </div>
+  </div>
+</div>
