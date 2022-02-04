@@ -11,7 +11,7 @@ dependencies:
 id: webform
 theme: drupalastic
 region: sidebar
-weight: 0
+weight: -17
 provider: null
 plugin: webform_block
 settings:

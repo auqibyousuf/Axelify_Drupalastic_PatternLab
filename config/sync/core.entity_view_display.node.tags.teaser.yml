@@ -1,0 +1,22 @@
+uuid: 500ea2ef-85c2-4590-8dcb-6055add77d0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tags.field_tags_view
+    - node.type.tags
+  module:
+    - user
+id: node.tags.teaser
+targetEntityType: node
+bundle: tags
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tags_view: true

@@ -1,0 +1,8 @@
+uuid: 2a1d8fb3-1b75-4b41-8f6a-829f62149fa5
+langcode: en
+status: true
+dependencies: {  }
+id: tags
+label: Tags
+revision: 0
+description: ''

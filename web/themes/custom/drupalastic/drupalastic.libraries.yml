@@ -41,7 +41,7 @@ footer:
       dist/components/molecules/footer-secondary/footer-secondary.css: {}
       dist/components/organisms/footer/footer.css: {}
 
-blog-listing:
+blog-details:
   css:
     theme:
       dist/components/molecules/author/author.css: {}
@@ -107,7 +107,12 @@ portfolio:
   js:
     dist/components/organisms/portfolio-slider/portfolio-slider.js: {}
 
-
+blog-listing:
+  css:
+    theme:
+      dist/components/molecules/blog-card/blog-card.css: {}
+      dist/components/molecules/blog-card-list/blog-card-list.css: {}
+      dist/components/organisms/blog-listing/blog-listing.css: {}
 
 
 

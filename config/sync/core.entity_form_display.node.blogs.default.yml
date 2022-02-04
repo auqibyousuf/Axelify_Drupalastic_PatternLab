@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.blogs.field_blog_cat
     - field.field.node.blogs.field_blog_categories
     - field.field.node.blogs.field_blog_date
+    - field.field.node.blogs.field_blog_discription
     - field.field.node.blogs.field_blog_image
     - field.field.node.blogs.field_blog_main_body
     - field.field.node.blogs.field_blog_main_image
@@ -93,6 +94,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
+  field_blog_discription:
+    weight: 135
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_blog_image:
     weight: 123

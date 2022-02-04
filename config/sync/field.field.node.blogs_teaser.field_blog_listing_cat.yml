@@ -1,0 +1,19 @@
+uuid: 003f30ef-f972-4011-bf98-3012c56a0f77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_listing_cat
+    - node.type.blogs_teaser
+id: node.blogs_teaser.field_blog_listing_cat
+field_name: field_blog_listing_cat
+entity_type: node
+bundle: blogs_teaser
+label: 'Blog listing cat'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

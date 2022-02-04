@@ -1,0 +1,95 @@
+uuid: 97b5367e-28c6-41fb-bfe5-a0a8ffa9e7e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blogs_teaser.field_blog_link
+    - field.field.node.blogs_teaser.field_blog_listing_author
+    - field.field.node.blogs_teaser.field_blog_listing_cat
+    - field.field.node.blogs_teaser.field_blog_listing_date
+    - field.field.node.blogs_teaser.field_blog_listing_desc
+    - field.field.node.blogs_teaser.field_blog_listing_image
+    - field.field.node.blogs_teaser.field_blog_listing_name
+    - field.field.node.blogs_teaser.field_blog_listing_title
+    - node.type.blogs_teaser
+  module:
+    - datetime
+    - image
+    - link
+    - user
+id: node.blogs_teaser.default
+targetEntityType: node
+bundle: blogs_teaser
+mode: default
+content:
+  field_blog_link:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_blog_listing_author:
+    weight: 7
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_blog_listing_cat:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_blog_listing_date:
+    weight: 5
+    label: hidden
+    settings:
+      timezone_override: ''
+      date_format: 'M Y'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_blog_listing_desc:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_blog_listing_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_blog_listing_name:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_blog_listing_title:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  links: true

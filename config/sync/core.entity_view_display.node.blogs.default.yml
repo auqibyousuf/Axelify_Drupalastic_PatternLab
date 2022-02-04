@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.blogs.field_blog_cat
     - field.field.node.blogs.field_blog_categories
     - field.field.node.blogs.field_blog_date
+    - field.field.node.blogs.field_blog_discription
     - field.field.node.blogs.field_blog_image
     - field.field.node.blogs.field_blog_main_body
     - field.field.node.blogs.field_blog_main_image
@@ -119,5 +120,6 @@ hidden:
   body: true
   field_blog_categories: true
   field_blog_date: true
+  field_blog_discription: true
   field_blog_image: true
   links: true

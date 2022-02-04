@@ -1,0 +1,30 @@
+uuid: fa3e9bc1-8b6a-4b31-ad83-47a3a183d811
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:tags:40b98051-511d-43fb-b593-90a347a607e4'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupalastic
+id: tags
+theme: drupalastic
+region: sidebar
+weight: -15
+provider: null
+plugin: 'block_content:40b98051-511d-43fb-b593-90a347a607e4'
+settings:
+  id: 'block_content:40b98051-511d-43fb-b593-90a347a607e4'
+  label: Tags
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false

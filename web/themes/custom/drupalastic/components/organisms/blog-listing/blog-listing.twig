@@ -1,0 +1,54 @@
+{% if page_heading %}
+  {{ page_heading }}
+{% else %}
+  {% include "@molecules/page-heading/page-heading.twig" with {
+    "heading": heading,
+    "subHeading": subHeading
+  } %}
+{% endif %}
+<div class="blog-listing">
+  <div class="blog-listing-container">
+    {% if blog_listing %}
+      {{ blog_listing }}
+    {% else %}
+      {% include "@molecules/blog-card-list/blog-card-list.twig" %}
+    {% endif %}
+    <div class="blog-listing-sidebar">
+      <div class="blog-listing-sidebar-post">
+      {% if blog_search %}
+        {{ blog_search }}
+      {% else %}
+        {% include "@atoms/textbox/textbox.twig" with {
+          "txtPlaceholder": "Search",
+          "txtClass": "blogs-sidebar__search"
+        } %}
+      {% endif %}
+        {% block taxonomy %}
+          {% if blog_listing_taxonomy %}
+            {{ blog_listing_taxonomy }}
+          {% else %}
+            {% include "@molecules/taxonomy/taxonomy.twig" %}
+          {% endif %}
+        {% endblock %}
+        {% if blog_listing_post %}
+          {{ blog_listing_post }}
+        {% else %}
+          {% include "@organisms/blogs-post/blogs-post.twig" with {
+            "title": "Recent Post"
+          } %}
+        {% endif %}
+      </div>
+      {% block tags %}
+        {% if blog_listing_tags %}
+          {{ blog_listing_tags }}
+        {% else %}
+          {% include "@molecules/taxonomy-tags/taxonomy-tags.twig" with {
+            "tagsWrapper": "blog-listing__tags-list-container",
+            "tagsWrapperList": "blog-listing__tags-list-item",
+            "title": "Tags"
+          } %}
+        {% endif %}
+      {% endblock %}
+    </div>
+  </div>
+</div>

@@ -1,9 +1,10 @@
+<h3 class="lbl-2"> {{ title }} </h3>
 {% if drupal_tags %}
   {{ drupal_tags }}
 {% else %}
-  <ul class="blog__tags-list">
+  <ul class="{{ tagsWrapper }}">
     {% for tag in tags %}
-      <li class="blog__tags-list-item">
+      <li class="{{ tagsWrapperList }}">
         <a href="{{ tag.linkUrl }}">
           {{ tag.linkText }}
         </a>

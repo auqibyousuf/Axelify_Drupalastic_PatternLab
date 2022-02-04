@@ -1,0 +1,28 @@
+uuid: 1c27d9a3-d1c5-4578-90f6-b13f32ae0967
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tags.field_tags_view
+    - node.type.tags
+  module:
+    - user
+id: node.tags.default
+targetEntityType: node
+bundle: tags
+mode: default
+content:
+  field_tags_view:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

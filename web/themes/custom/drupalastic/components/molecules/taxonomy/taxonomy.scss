@@ -9,6 +9,10 @@
   margin-top: 40px;
   @include breakpoint($mobile) {
     margin-bottom: 50px;
+    width: 100%;
+  }
+  @include breakpoint($tablet) {
+    width: 100%;
   }
 }
 .blog-categories__list-item {
